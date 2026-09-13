@@ -16,7 +16,7 @@ with screenshots documenting every step.
 
 ---
 
-## 🏗️ Lab Environment
+## 📋  Lab Environment
 
 | Component | Detail |
 |-----------|--------|
