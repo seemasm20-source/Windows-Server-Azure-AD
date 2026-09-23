@@ -1,25 +1,29 @@
+# 💻 Create Windows 11 Client VM on Azure
 
-
-
-
-
-# 🖥️ Create Windows Server VM on Azure
-
+[← Back to Section 01 Overview](./README.md)
 
 ---
 
 ## 📋 Summary
 
-Set up a Windows Client 2025 virtual machine on Microsoft Azure to act as the Domain Controller for the lab environment.
+Set up a Windows 11 Pro virtual machine on Microsoft Azure to act as the client machine for the lab environment. This client VM will be joined to the domain and used to test Active Directory, Group Policy, VPN and remote support scenarios.
 
 ---
 
 ## 🔎 Steps to Document
 
+### Step 1 — Resource Group
+
+| Setting | Value |
+|---------|-------|
+| **Resource Group** | Seema ✅ |
+
+> Use the same resource group as the server VM so both machines are managed together.
+
 
 ---
 
-### Step 1 - Create a Virtual Machine
+### Step 2 — Select Virtual Machine Type
 
 In the Azure Portal:
 
@@ -27,128 +31,95 @@ In the Azure Portal:
 Virtual Machines → Create → Azure Virtual Machine
 ```
 
-
----
-
-### Step 2 - Resource Group
-
 | Setting | Value |
 |---------|-------|
-| **Resource Group** | Seema ✅ |
+| **Machine Type** | Windows 11 ✅ |
 
 
 ---
 
-### Step 4 - Virtual Machine Name
-
-| Setting | Value |
-|---------|-------|
-| **Virtual Machine Name** | Windows11  |
-
----
-
-### Step 5 - Region
+### Step 3 — Region
 
 | Setting | Value |
 |---------|-------|
 | **Region** | Germany West Central ✅ |
-| **Virtual Network (VNet) Region** | Germany West Central ✅ |
 
-> **Note:** The Virtual Network (VNet) must be in the same region as the VM - Germany West Central.
-
+> **Note:** Must be the same region as the server VM (server2021) so both machines are on the same Virtual Network.
 
 
 ---
 
-### Step 6 - Image
+### Step 4 — Image
 
 | Setting | Value |
 |---------|-------|
-| **Image** | Windows 11 Pro version 25H2 x64 -Gen2 ✅ |
-
+| **Image** | Windows 11 Pro version 25H2 — x64 Gen2 ✅ |
 
 
 ---
 
-### Step 7 - VM Size
+### Step 5 — VM Size
 
 | Setting | Value |
 |---------|-------|
 | **VM Size** | Standard DC1s_v3 ✅ | | **vCPU** | 1 | | **RAM** | 8 GiB |
 
 
+
 ---
 
-### Step 8 - Administrator Account
+### Step 6 — Administrator Account
 
-Create a local server administrator username and password.
+Create a local administrator username and password for the client VM.
 
 ```
 Username: [your-admin-username]
 Password: [strong-password — write this down securely]
 ```
 
-> **Important:** Store your credentials securely. You will need them every time you RDP into the client machine.
+> **Note:** You can use the same credentials as the server VM for simplicity in a lab environment.
 
 ---
 
-### Step 9 - Inbound Ports
+### Step 7 — Inbound Ports
 
 | Setting | Value |
 |---------|-------|
-| **Allow inbound port** | RDP - TCP 3389 ✅ |
+| **Allow inbound port** | RDP — TCP 3389 ✅ |
 
-> This allows remote administration of the Windows client  via Remote Desktop Protocol.
+> This allows remote administration of the Windows 11 client via Remote Desktop Protocol.
 
 
 ---
 
-### Step 10 - Networking
+### Step 8 — Networking
 
 | Setting | Value |
 |---------|-------|
-| **Virtual Network (VNet)** | vnet-germany-west-central19 |
-| **Subnet** | Existing subnet |
+| **Virtual Network (VNet)** | vnet-germany-west-central1 ✅ |
+| **Subnet** | Same subnet as server VM ✅ |
 | **Region** | Germany West Central ✅ |
 
-> **Note:** Ensure the VNet and the VM are both located in Germany West Central just like the server
+> **Important:** The Virtual Network and Subnet must be in the same location - Germany West Central. This ensures the client VM and server VM can communicate with each other on the same network.
+
 
 
 ---
 
-### Step 11 - Network Interface / NSG
+### Step 9 - Remaining Settings
 
 | Setting | Value |
 |---------|-------|
-| **Additional ports** | None - do not open manually at this stage |
-| **Allowed inbound** | RDP → TCP 3389 ✅ |
+| **Disks** | Default settings ✅ |
+| **Management** | Default settings ✅ |
+| **Monitoring** | Default settings ✅ |
+| **Advanced** | Default settings ✅ |
 
-> For initial VM creation, do not manually open additional ports. Only RDP is required at this stage.
-
-
----
-
-### Step 12 - Disks
-
-| Setting | Value |
-|---------|-------|
-| **Disk Configuration** | Default settings ✅ |
-
-> Keep the default disk configuration. No changes required.
+> Keep all remaining settings at default. No changes required.
 
 ---
 
-### Step 13 - Management
-
-| Setting | Value |
-|---------|-------|
-| **Management Settings** | Default settings ✅ |
-
-> Keep the default management settings. No changes required.
-
----
-
-### Step 14 — Review + Create
+### Step 10 — Review + Create
 
 Review the full configuration summary and deploy:
 
@@ -159,7 +130,19 @@ Review + Create → Create ✅
 
 
 
-<img width="1920" height="1080" alt="Screenshot (565)" src="https://github.com/user-attachments/assets/f72c6321-7b9c-43c2-91db-b1b59d4e7105" />
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="1920" height="1080" alt="Screenshot (565)" src="https://github.com/user-attachments/assets/a309d5db-d9c5-46a7-b730-ac229d8d0da4" />
 
 
 
@@ -184,28 +167,53 @@ Review + Create → Create ✅
 
 
 
+---
+
+## ✅ Verification
+
+After deployment completes verify the following:
+
+| Check | Expected Result |
+|-------|----------------|
+| VM Status | Running ✅ |
+| Region | Germany West Central ✅ |
+| Image | Windows 11 Pro version 25H2 ✅ |
+| Size | Standard DC1s_v3 ✅ |
+| RDP Port 3389 | Open ✅ |
+| Public IP | Assigned ✅ |
+| VNet | vnet-germany-west-central1 ✅ |
 
 
 
 
 
 
+<img width="1920" height="1080" alt="Screenshot (568)" src="https://github.com/user-attachments/assets/6d5756c8-fd77-47d6-b482-5303f1a626b7" />
+
+
+---
+
+## 📋 Client VM Configuration Summary
+
+| Setting | Value |
+|---------|-------|
+| **Resource Group** | Seema |
+| **VM Type** | Windows 11 |
+| **Region** | Germany West Central |
+| **Image** | Windows 11 Pro version 25H2 — x64 Gen2 |
+| **VM Size** | Standard DC1s_v3 |
+| **vCPU** | 1 |
+| **RAM** | 8 GiB |
+| **Inbound Port** | RDP TCP 3389 |
+| **VNet** | vnet-germany-west-central1 |
+| **Remaining settings** | Default |
+
+---
 
 
 
+---
 
+## 💡 Next Step
 
-
-
-
-
-
-
-
-
-
-
-
-
-<img width="1920" height="1080" alt="Screenshot (568)" src="https://github.com/user-attachments/assets/2212d8cb-347f-4c43-a951-74bd4cecf928" />
-
+→ [RDP into Server](./rdp-into-server.md)
