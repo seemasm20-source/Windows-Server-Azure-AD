@@ -8,6 +8,10 @@ Steps to document:
 
 
 
+
+
+
+
 <img width="1920" height="1080" alt="Screenshot (577)" src="https://github.com/user-attachments/assets/6bc1748d-f7f0-4fdf-8ec3-adaa5f8b8451" />
 
 
@@ -25,6 +29,11 @@ Type: ncpa.cpl
 Press Enter.
 
 The Network Connections window will open.
+
+
+
+
+
 
 
 
@@ -108,6 +117,19 @@ Preferred DNS server: 172.16.0.4
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 4. Open System Properties
 
 From the Windows Start menu, search for:
@@ -117,6 +139,10 @@ Advanced system settings
 Open View advanced system settings.
 
 The System Properties window will appear.
+
+
+
+
 
 
 
@@ -164,7 +190,8 @@ Click : OK
 
 
 
-<img width="2268" height="4032" alt="IMG_0423" src="https://github.com/user-attachments/assets/06191329-f968-4836-aae1-4d505aac034f" />
+
+<img width="2268" height="1985" alt="IMG_0424" src="https://github.com/user-attachments/assets/9c72e839-438b-4157-a1de-e67eb49c73ee" />
 
 
 
