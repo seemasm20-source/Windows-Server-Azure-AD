@@ -1,7 +1,7 @@
 
-# Promote to Domain Controller
+# 🖥️  Promote to Domain Controller
 
-## Steps
+  ## Steps
 
 1. Server Manager → Add Roles and Features
  
