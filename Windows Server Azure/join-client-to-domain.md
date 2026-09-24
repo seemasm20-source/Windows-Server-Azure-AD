@@ -1,7 +1,7 @@
 
 Join Windows 11 Client to Domain
 
-Steps to document:
+Steps to document: 
 
 1. Connect to the Windows Client :- Log in to the Windows Client VM using Remote Desktop (RDP).
 
