@@ -83,17 +83,16 @@ The Network Connections window will open.
 
 
 3. Configure the DNS Server
- Right-click the active Network Adapter.
- Select Properties.
- Select Internet Protocol Version 4 (TCP/IPv4).
- Click Properties.
-  Select:
+ 
+   Right-click the active Network Adapter.
+ 
+ Select Properties →  Select Internet Protocol Version 4 (TCP/IPv4) →  Click Properties 
+ 
+  →  Select: Use the following DNS server addresses
 
-Use the following DNS server addresses
+ →   Enter the Domain Controller / DNS Server IP address:
 
-Enter the Domain Controller / DNS Server IP address:
-
-Preferred DNS server: 172.16.0.4
+  →  Preferred DNS server: 172.16.0.4
 
 
 
@@ -134,11 +133,7 @@ Preferred DNS server: 172.16.0.4
 
 From the Windows Start menu, search for:
 
-Advanced system settings
-
-Open View advanced system settings.
-
-The System Properties window will appear.
+ →  Advanced system settings  → Open View advanced system settings  → The System Properties window will appear.
 
 
 
@@ -281,13 +276,11 @@ After the restart, the client will be a member of:seemaenterprise.co.in
 
 After restarting, log in and verify the domain membership.
 
-Press:
-
-Win + R
+Press: Win + R
 
 Type: sysdm.cpl
 
-Go to the Computer Name tab.
+Go to the Computer Name tab
 
 Verify that Domain shows: seemaenterprise.co.in
 
