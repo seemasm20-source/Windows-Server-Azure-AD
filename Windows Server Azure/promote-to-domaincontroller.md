@@ -19,12 +19,13 @@
  
 8. Login with LAB\Administrator → verify ADUC in Tools
 
-```
+9. GO to Local Servers → Check the domain name created → seemaenterprise.co.in ✅
 
 
 
 
 
+<img width="1920" height="1080" alt="Screenshot (570)" src="https://github.com/user-attachments/assets/79feb6fd-6290-4373-b53a-3327704cf094" />
 
 
 
@@ -44,6 +45,7 @@
 
 
 
+<img width="1920" height="1080" alt="Screenshot (571)" src="https://github.com/user-attachments/assets/0658581a-7bad-4df4-a8dd-ecef749a7f1d" />
 
 
 
@@ -61,11 +63,11 @@
 
 
 
-<img width="1920" height="1080" alt="Screenshot (570)" src="https://github.com/user-attachments/assets/04c7d5c3-036d-4b3e-8f62-cbfa57e5fe4e" />
 
 
 
 
+<img width="1920" height="1080" alt="Screenshot (572)" src="https://github.com/user-attachments/assets/a7e06df1-782c-47db-9ff5-802a60676185" />
 
 
 
@@ -87,6 +89,7 @@
 
 
 
+<img width="1920" height="1080" alt="Screenshot (573)" src="https://github.com/user-attachments/assets/cef6267e-d6ef-4710-ab57-04e87714eb9d" />
 
 
 
@@ -107,6 +110,7 @@
 
 
 
+<img width="1920" height="1080" alt="Screenshot (574)" src="https://github.com/user-attachments/assets/d6c0e5c1-ed20-40f2-9a61-281175c57bab" />
 
 
 
@@ -122,6 +126,75 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="1920" height="1080" alt="Screenshot (575)" src="https://github.com/user-attachments/assets/a9f5035d-a5f0-4305-8d33-527ae3a0164a" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="1920" height="1080" alt="Screenshot (576)" src="https://github.com/user-attachments/assets/2b21f7ab-753e-4ee6-8a8a-85f8e32a6b1a" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="1920" height="1080" alt="Screenshot (581)" src="https://github.com/user-attachments/assets/f792c799-23c6-4ac5-80fa-7565b9177d81" />
 
 
 
