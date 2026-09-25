@@ -1,9 +1,9 @@
 
-Join Windows 11 Client to Domain
+## Join Windows 11 Client to Domain
 
-Steps to document: 
+   ## Steps to document: 
 
-1. Connect to the Windows Client :- Log in to the Windows Client VM using Remote Desktop (RDP).
+## 1. Connect to the Windows Client :- Log in to the Windows Client VM using Remote Desktop (RDP).
 
 
 
@@ -20,15 +20,26 @@ Steps to document:
 
 
 
-2. Open Network Adapter Settings
 
-Press: Win + R
 
-Type: ncpa.cpl
 
-Press Enter.
 
-The Network Connections window will open.
+
+
+
+
+
+
+
+## 2. Open Network Adapter Settings
+
+ Press: Win + R
+
+ Type: ncpa.cpl
+
+ Press Enter.
+
+ The Network Connections window will open.
 
 
 
@@ -82,15 +93,15 @@ The Network Connections window will open.
 
 
 
-3. Configure the DNS Server
+## 3. Configure the DNS Server
  
    Right-click the active Network Adapter.
  
- Select Properties →  Select Internet Protocol Version 4 (TCP/IPv4) →  Click Properties 
+   Select Properties →  Select Internet Protocol Version 4 (TCP/IPv4) →  Click Properties 
  
   →  Select: Use the following DNS server addresses
 
- →   Enter the Domain Controller / DNS Server IP address:
+  →   Enter the Domain Controller / DNS Server IP address:
 
   →  Preferred DNS server: 172.16.0.4
 
@@ -129,9 +140,9 @@ The Network Connections window will open.
 
 
 
-4. Open System Properties
+## 4. Open System Properties
 
-From the Windows Start menu, search for:
+    From the Windows Start menu, search for:
 
  →  Advanced system settings  → Open View advanced system settings  → The System Properties window will appear.
 
@@ -143,12 +154,27 @@ From the Windows Start menu, search for:
 
 
 
-5. Open Computer Name Settings
+## 5. Open Computer Name Settings
 
-In System Properties:
+ In System Properties:
 
-Select the Computer Name tab.
-Click Change...
+ Select the Computer Name tab.
+ Click Change...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -172,11 +198,11 @@ Click Change...
 
 
 
-6. Join the Domain
+## 6. Join the Domain
 
-Under Member of, select:
+ Under Member of, select:
 
-Domain
+ Domain
 
 Enter the Active Directory domain name: seemaenterprise.co.in
 
@@ -216,21 +242,17 @@ Click : OK
 
 
 
-7. Enter Domain Administrator Credentials
+## 7. Enter Domain Administrator Credentials
 
-Windows will display a Windows Security prompt.
+ Windows will display a Windows Security prompt.
 
-Enter the domain administrator credentials:
+ Enter the domain administrator credentials:
 
-Username:
+ Username: seemaenterprise.co.in\seema
 
-seemaenterprise.co.in\seema
+ Password: <Domain Administrator Password>
 
-Password:
-
-<Domain Administrator Password>
-
-Click OK.
+ Click OK.
 
 
 
@@ -246,33 +268,33 @@ Click OK.
 
 
 
-8. Confirm Domain Join
+## 8. Confirm Domain Join
 
-If the credentials and DNS configuration are correct, Windows should display a message similar to:
+    If the credentials and DNS configuration are correct, Windows should display a message similar to:
 
-Welcome to the seemaenterprise.co.in domain.
+   Welcome to the seemaenterprise.co.in domain.
 
-Click OK.
+   Click OK.
 
-Windows may then display a message indicating that the computer needs to be restarted.
-
-
+   Windows may then display a message indicating that the computer needs to be restarted.
 
 
 
 
 
-9. Restart the Windows Client
-
-Click OK, then restart the Windows Client.
-
-After the restart, the client will be a member of:seemaenterprise.co.in
 
 
+## 9. Restart the Windows Client
+
+   Click OK, then restart the Windows Client.
+ 
+  After the restart, the client will be a member of:seemaenterprise.co.in
 
 
 
-10. Verification
+
+
+## 10. Verification
 
 After restarting, log in and verify the domain membership.
 
@@ -281,7 +303,6 @@ Press: Win + R
 Type: sysdm.cpl
 
 Go to the Computer Name tab
-
 Verify that Domain shows: seemaenterprise.co.in
 
 
