@@ -288,7 +288,7 @@ Click : OK
 
    Click OK, then restart the Windows Client.
  
-  After the restart, the client will be a member of:seemaenterprise.co.in
+  After the restart, the client will be a member of seemaenterprise.co.in
 
 
 
