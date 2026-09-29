@@ -1,1 +1,102 @@
 
+## 🖥️ Move User Between OUs
+
+
+1. ADUC → find user in current OU
+
+2. Right-click → Move → select destination OU
+
+3. Moved Sam from SALES OU  → IT OU
+
+4. gpupdate /force on client PC
+
+5. Verify new GPOs apply to user in new OU
+
+
+Note : Moving a user changes which GPOs apply. User moved from SALES to IT gets IT department policies after next gpupdate, drive mappings, restrictions, desktop settings all change.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="1920" height="1080" alt="Screenshot (606)" src="https://github.com/user-attachments/assets/4be5389f-afc1-4c51-8321-f528adbe4a89" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="1920" height="1080" alt="Screenshot (607)" src="https://github.com/user-attachments/assets/f39849bf-0e95-42ac-94fe-b26ba4eb6854" />
