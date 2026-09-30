@@ -7,8 +7,8 @@
 4. Check the box that says Share this folder
 5. Click Permissions button
 6. Select Everyone and click Remove.
-   Click Add..., type Domain Users (or your specific security group like hr-users), __User selected:sam@seemaenterprise.co.in__
-7. click Check Names. Click OK.
+   Click Add., type Domain Users (or your specific security group like hr-users), __User selected:sam@seemaenterprise.co.in__
+7. Click Check Names. Click OK.
 8. Check the boxes to allow Change and Read permissions.
 9. Click Apply and OK
 
