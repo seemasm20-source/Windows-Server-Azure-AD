@@ -62,11 +62,13 @@ When a folder is shared over a network, users can access it using a UNC path suc
 
 
 
-1. Log into the Windows 11 Client as sam. Open the share via \\172.16.0.4\CompanyShare\Finance. Try to right-click and get in to IT doc text file and read ,
+1. Log into the Windows 11 Client as sam. Open the share via \\172.16.0.4\CompanyShare\Finance. Try to right-click and get in to IT doc text file .
 
-2. Windows 11 will show a popup saying    "Destination Folder Access Denied" because his NTFS permission is Read Only.
+2. Firstly checking Read & Execute (Viewer mode): You can open and read the document IT.doc cleanly. If you make edits and click Save, Windows blocks you from modifying the        original file on the server. Instead, it forces a "Save As" window to pop up, requiring you to choose an alternate destination like your Desktop or your personal Documents folder   to keep your changes.
 
-3. Log out and sign back in as sam again. Go to the same folder. He will be able to create, write, edit and delete files perfectly because his NTFS permission is set to Modify.
+3. Windows 11 will show a popup saying    "Destination Folder Access Denied" because his NTFS permission is Read Only.
+
+4. Log out and sign back in as sam again. Go to the same folder. You have access to Modify (Editor Mode): You can read, write, edit, and safely click Save directly inside the document. The file updates instantly in place on the server and the next coworker who opens that exact file will immediately see your new edits.He will be able to create, write, edit and delete files perfectly because his NTFS permission is set to Modify.
 
 
 
@@ -272,3 +274,129 @@ When a folder is shared over a network, users can access it using a UNC path suc
 
 
 <img width="1920" height="1080" alt="Screenshot (621)" src="https://github.com/user-attachments/assets/daef3de9-d1ea-4387-9517-b48200b23669" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="2160" height="2840" alt="79C118FC-B953-4E27-9C05-DEEBA445530A" src="https://github.com/user-attachments/assets/8294ec07-55a8-4fdd-86a3-434f2eddafb6" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="2072" height="3050" alt="9F3C1DC8-0F83-4D46-8FC3-A991615A793F" src="https://github.com/user-attachments/assets/c85ff27b-8beb-496d-8771-1674134d4615" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="2160" height="2095" alt="EE5A15E3-1E2F-4992-ACEA-36791A790E23" src="https://github.com/user-attachments/assets/e984b01d-3ada-448d-b629-82a83a5be65a" />
