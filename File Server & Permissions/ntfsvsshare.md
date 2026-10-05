@@ -1,7 +1,7 @@
 
 # NTFS vs Share.
 
-## Rule
+## Rule - Share Permissions + NTFS Permissions = Most Restrictive Result
 
 Most restrictive permission wins.
 
