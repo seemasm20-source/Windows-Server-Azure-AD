@@ -1,5 +1,5 @@
 
-# NTFS vs Share - which wins?
+# NTFS vs Share.
 
 ## Rule
 
