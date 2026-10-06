@@ -1,5 +1,5 @@
 
-## Drive Mapping via GPO
+## 🖥️ Drive Mapping via GPO
 
 ## Step:1 Setting Up the Drive Map
 
@@ -62,6 +62,7 @@ Now you need to verify that the policy actually executed on the client machine.
 
 
 
+<img width="1920" height="1080" alt="Screenshot (632)" src="https://github.com/user-attachments/assets/e5f6c8e6-e36a-4391-be51-ecaab743fac4" />
 
 
 
@@ -83,6 +84,160 @@ Now you need to verify that the policy actually executed on the client machine.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="1920" height="1080" alt="Screenshot (633)" src="https://github.com/user-attachments/assets/2ab5cbcd-9814-426a-a74d-582eb68212b0" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="1920" height="1080" alt="Screenshot (634)" src="https://github.com/user-attachments/assets/949afe0a-5f6b-4be7-a15b-e62eea7842dd" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="2160" height="2828" alt="01BD9C6D-2E75-4C43-9047-FF8C1D34EFD6" src="https://github.com/user-attachments/assets/62abd186-2cea-4179-a7c8-940aeaa1441f" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="2268" height="2554" alt="IMG_0507" src="https://github.com/user-attachments/assets/ca246b41-b0db-4260-b478-e6a3f69fdd33" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="2268" height="2760" alt="IMG_0509" src="https://github.com/user-attachments/assets/d40038b9-290e-44f0-939c-d9e86cf8caaf" />
 
 
 
