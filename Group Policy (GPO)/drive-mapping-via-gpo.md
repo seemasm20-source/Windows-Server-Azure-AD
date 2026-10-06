@@ -28,7 +28,7 @@
 
 	• Drive Letter: Near the bottom, check Use: and select your desired letter (like G).
 
-	• Click
+	• Click Apply & OK
 
 
 
