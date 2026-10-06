@@ -1,34 +1,34 @@
 
-GPO Overview and OU Linking
+## 🖥️ GPO Overview and OU Linking
 
-  Step 1 : Finding the Domain and OU  
+  ## Step 1 : Finding the Domain and OU  
 
-  Log in to Windows Server > Server Manager > Tools > Group policy Management .
+  Log in to Windows Server > Server Manager > Tools > Group policy Management
     
 1. Look at the far-left pane of the Group Policy Management window.
    
-3. Look for a folder labeled Forest: [YourDomainName] (Forest: seemaenterprise.co.in)
-4. 
-5. Click the small > arrow next to it to expand it.
-6. 
-7. Underneath, click the arrow next to Domains.
-8. 
-9. Finally, click the arrow next to your specific Domain Name (seemaenterprise.co.in).
+2. Look for a folder labeled Forest: [YourDomainName] __(Forest: seemaenterprise.co.in)__
+ 
+3. Click the small > arrow next to it to expand it.
+  
+4. Underneath, click the arrow next to Domains.
+ 
+5. Finally, click the arrow next to your specific Domain Name __(seemaenterprise.co.in)__
 
 
 
 
-  Step 2 : Base Setup 
+  ## Step 2 : Base Setup 
 
- Once your domain tree is visible, you can execute your steps:
+   Once your domain tree is visible, you can execute your steps:
 
 1. Look down the list for the OU you want to target (remember from our previous check: it must be a true OU with the little box icon, not the default plain Users folder).
  
 2. Right-click that specific OU(IT) and select Create a GPO in this domain, and Link it here
    
-3. Name it __ HR-Restrictions__ and click OK.
+3. Name it __HR-Restrictions__ and click OK.
    
-4. Right-click your brand new GPO underneath that OU and click Edit. This will open the Group Policy Management Editor window
+4. Right-click your brand new GPO underneath that OU and click Edit. This will open the Group Policy Management Editor window.
 
 
 
