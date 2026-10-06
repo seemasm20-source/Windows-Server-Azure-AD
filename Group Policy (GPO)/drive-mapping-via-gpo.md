@@ -58,9 +58,10 @@
 2. Open the Command Prompt
    
 3. Type the following command and press ENTER
-    gpupdate /force
 
-4.  Wait for it to complete. It should say:
+   gpupdate /force
+
+5.  Wait for it to complete. It should say:
    
 	• "Computer Policy update has completed successfully."
 
