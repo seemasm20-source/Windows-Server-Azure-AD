@@ -17,15 +17,15 @@
 
 1. In the left pane of the editor, navigate down through the Computer Configuration branch
    
-	 • Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Password Policy
+	 • __Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Password Policy__
 
 2. In the right pane, double-click and configure these core settings based on your security requirements:
    
 	 • Minimum password length: Set this to at least 12 or 14 characters (modern security standard).
 
-	 • Password must meet complexity requirements: Set to Enabled (forces a mix of uppercase, lowercase, numbers, and symbols).
+	 • Password must meet complexity requirements, Set to Enabled (forces a mix of uppercase, lowercase, numbers and symbols).
 
-	 • Maximum password age: Set to 0 (never expires, recommended if using long passphrases) or 90 days (traditional compliance standard).
+	 • Maximum password age Set to 0 (never expires, recommended if using long passphrases) or 90 days (traditional compliance standard).
 
 	 • Enforce password history: Set to 24 passwords remembered (prevents users from reusing old passwords immediately).
 
@@ -38,7 +38,7 @@
    
 	 • Account lockout threshold: Set this to 5 invalid logon attempts (the account locks after 5 wrong passwords).
 
-     Note: When you hit Apply, Windows will pop up a box suggesting default times for the next two settings. Click OK, or manually change them below
+      Note: When you hit Apply, Windows will pop up a box suggesting default times for the next two settings. Click OK, or manually change them below
 
 	 • Account lockout duration: Set to 30 minutes (how long the user has to wait before the account unlocks itself).
 
@@ -47,23 +47,474 @@
 
 
 ## Step 4: Force and Test the Policy
-
- 1. Close the GPO Editor window.
- 
- 2. Because this is a Computer Configuration policy, client computers must download it during startup or background refreshes.
   
- 3. On a client machine, open Command Prompt as Administrator and type
+ 1. On a client machine log in and open Command Prompt as Administrator and type
 
-   gpupdate /force
+    __gpupdate /force__
    
- 4. The Test: To confirm it took effect, log out of a client machine and purposefully type a wrong password 5 times in a row.
+ 2. The Test: To confirm it took effect, log out of a client machine and purposefully type a wrong password 5 times in a row.
 
-   It should block you and state that the account has been locked. You can unlock the user manually in Active Directory user properties.
+    It should block you and state that the account has been locked. You can unlock the user manually in Active Directory user properties.
 
    
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="1920" height="1080" alt="Screenshot (637)" src="https://github.com/user-attachments/assets/27a2d04c-5053-4129-b5bb-2d13674740e5" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="1920" height="1080" alt="Screenshot (638)" src="https://github.com/user-attachments/assets/b91b826e-f72d-47b6-88ac-8a37a17c1302" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="1920" height="1080" alt="Screenshot (639)" src="https://github.com/user-attachments/assets/ababa622-0d79-4752-9e20-4c0c667b7423" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="1920" height="1080" alt="Screenshot (640)" src="https://github.com/user-attachments/assets/009c4b87-e4d3-472d-967c-aeb4cf6fd39b" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="1920" height="1080" alt="Screenshot (641)" src="https://github.com/user-attachments/assets/d634644b-c207-46b5-bd52-aa1074d3b1c9" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="1920" height="1080" alt="Screenshot (642)" src="https://github.com/user-attachments/assets/9d6f3a6d-4048-47bc-855f-ddba8020841e" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="1920" height="1080" alt="Screenshot (643)" src="https://github.com/user-attachments/assets/71297e6c-bd38-4b6d-bdd1-2c9a0d4484fb" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="1920" height="1080" alt="Screenshot (644)" src="https://github.com/user-attachments/assets/072fa9ca-3d5d-4482-9c64-e3f25835c4c6" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="1920" height="1080" alt="Screenshot (645)" src="https://github.com/user-attachments/assets/47a1892f-d225-4f3a-a831-e309cc568bab" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="2268" height="2910" alt="IMG_0507 (1)" src="https://github.com/user-attachments/assets/31cb0af4-f286-4557-bcfb-f22ca63e6d4a" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="2268" height="3332" alt="IMG_0513" src="https://github.com/user-attachments/assets/c309ce41-ca4f-4c9d-9c4b-eca60fcdb87c" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="1920" height="1080" alt="Screenshot (646)" src="https://github.com/user-attachments/assets/b5dc0d5f-c9e0-4452-bc36-e3c3976854ba" />
 
 
 
