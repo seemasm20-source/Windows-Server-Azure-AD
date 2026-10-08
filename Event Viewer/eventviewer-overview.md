@@ -1,15 +1,15 @@
 
 # 🖥️ Event Viewer
 
-**Event Viewer** is a built-in Windows administrative tool used to **view, monitor, and troubleshoot system, security, application, and service events**.
+**Event Viewer** is a built-in Windows administrative tool used to **view, monitor and troubleshoot system, security, application and service events**.
 
-Windows records important activities and errors as **event logs**. IT administrators and support technicians can use Event Viewer to identify problems, investigate errors, and understand what happened on a Windows computer or server.
+Windows records important activities and errors as **event logs**. IT administrators and support technicians can use Event Viewer to identify problems, investigate errors and understand what happened on a Windows computer or server.
 
 ## Common Event Logs
 
 - **Application** – Records events related to applications and software.
-- **System** – Records Windows system, driver, and service events.
-- **Security** – Records security-related activities such as logons, account changes, and account lockouts.
+- **System** – Records Windows system, driver and service events.
+- **Security** – Records security-related activities such as logons, account changes and account lockouts.
 - **Setup** – Records Windows installation and setup events.
 - **Forwarded Events** – Stores events collected from other computers.
 
@@ -18,7 +18,7 @@ Windows records important activities and errors as **event logs**. IT administra
 Each event can contain:
 
 - **Event ID** – Identifies the specific event.
-- **Level** – Information, Warning, Error, or Critical.
+- **Level** – Information, Warning, Error or Critical.
 - **Source** – The Windows component or service that generated the event.
 - **Date and Time** – When the event occurred.
 - **Description** – Details about what happened.
