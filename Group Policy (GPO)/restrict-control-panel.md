@@ -2,7 +2,7 @@
 
 ## 🖥️Restrict Control Panel Access
 
-
+ __GPO_Disable_USB_Storage__
 ## Step 1: Create a Dedicated GPO
 
 1. On your Domain Controller, open Group Policy Management (gpmc.msc).
