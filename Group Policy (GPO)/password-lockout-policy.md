@@ -10,7 +10,7 @@
  
 3. You will see a policy named Default Domain Policy linked here.
  
-4. Right-click Default Domain Policy and select Edit. (This opens the Group Policy Management Editor).
+4. Right-click Default Domain Policy and select Edit (This opens the Group Policy Management Editor).
 
 
 ## Step 2: Configure Password Complexity & Length
