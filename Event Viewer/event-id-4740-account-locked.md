@@ -1,6 +1,6 @@
 
 
-## Event ID 4740 — Account Locked Out    
+## Event ID 4740 - Account Locked Out    
 
 
 
@@ -128,5 +128,83 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="1920" height="1080" alt="Screenshot (661)" src="https://github.com/user-attachments/assets/68356d9a-2a39-4202-81c2-f310894278af" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="1920" height="1080" alt="Screenshot (662)" src="https://github.com/user-attachments/assets/94ec00b2-229e-48b9-92b4-f5c445ee7701" />
 
 
