@@ -10,7 +10,7 @@ This logs when a user physically types their password to unlock their desk monit
 
 4. The Result: This action instantly writes an Event ID 4624 to the local client's Security log with Logon Type: 2.
 
-   Note : For some reason, I am unable to see security logs in client machine even though I run Eventviewer as Administrator.
+   __Note : For some reason, I am unable to see security logs in client machine even though I run Eventviewer as Administrator.__
 
 
 
