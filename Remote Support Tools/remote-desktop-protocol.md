@@ -22,16 +22,18 @@ Remote Desktop Protocol (RDP) is a Microsoft protocol that allows an authorised 
 
 ## Steps to connect
 
+
 1. Sign in to the Azure portal.
 
-2. Open the target Windows VM and connect through RDP
- 
-3. Enter the Client Hostname(__sam@seemaenterprise.co.in__) and Password
+2.Open the target Windows VM and obtain its IP address.
 
-4. Select **Connect** and enter the appropriate credentials.
+3.Press Win + R, type mstsc, and press Enter.
 
-5. Verify that the remote Windows desktop opens successfully.
+4.Enter the target VM's IP address or hostname.((__sam@seemaenterprise.co.in__)
 
+5.Select Connect and enter the appropriate credentials.
+
+6.Verify that the remote Windows desktop opens successfully.
 
 
 
@@ -116,7 +118,8 @@ Remote Desktop Protocol (RDP) is a Microsoft protocol that allows an authorised 
 
 
 
-<img width="1920" height="1080" alt="Screenshot (673)" src="https://github.com/user-attachments/assets/43fa1c44-8fb5-4059-82f1-27e11d16aeff" />
+<img width="1920" height="1080" alt="Screenshot (678)" src="https://github.com/user-attachments/assets/7e3f2454-098e-48ff-be9d-875d3ee7181b" />
+
 
 
 
