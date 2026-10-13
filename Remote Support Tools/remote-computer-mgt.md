@@ -8,6 +8,7 @@
 Remote Computer Management allows an IT support technician to administer another Windows computer without opening a full remote desktop session. Depending on permissions and configuration, it can be used to manage services, view Event Viewer logs, access shared folders and perform other administrative tasks.
 
 
+Note :  Remote Computer Management are administrative consoles, not separate remote-control applications. They let you investigate or manage another computer without taking over its desktop. 
 
 ## Environment
 
