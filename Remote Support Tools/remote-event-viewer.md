@@ -1,9 +1,7 @@
 
-# Remote Event Viewer Lab
+# Remote Event Viewer
 
-## Objective
-
-Practise viewing and troubleshooting Windows event logs on a remote computer using Event Viewer.
+Remote Event Viewer allows IT support technicians to inspect event logs on another Windows computer without starting a full Remote Desktop session. It helps investigate application crashes, unexpected shutdowns, system errors and authentication issues.
 
 ## Environment
 
@@ -11,11 +9,9 @@ Practise viewing and troubleshooting Windows event logs on a remote computer usi
 * **Admin machine:** Windows Client VM or Windows Server VM
 * **Target machine:** Remote Windows computer
 * **Tool:** Event Viewer (`eventvwr.msc`)
-* **Log type:** Windows Logs — System, Application and Security
+* **Log type:** Windows Logs -System, Application and Security
 
-## What Is Remote Event Viewer?
 
-Remote Event Viewer allows IT support technicians to inspect event logs on another Windows computer without starting a full Remote Desktop session. It helps investigate application crashes, unexpected shutdowns, system errors and authentication issues.
 
 ## Procedure
 
@@ -44,20 +40,8 @@ Remote Event Viewer allows IT support technicians to inspect event logs on anoth
 * If a connection issue occurs, record the error and troubleshoot it.
 * Document the cause, corrective action and retest result only if you actually identified and tested a fix.
 
-## Security Considerations
 
-* Access event logs only on computers you are authorised to administer.
-* Security logs may contain usernames, computer names and other sensitive information.
-* Remove or redact sensitive details from screenshots before publishing them on GitHub.
-* Use least-privilege access wherever possible.
 
-## Key Learning
 
-Practised accessing remote Windows event logs and learned how Event Viewer supports IT troubleshooting without requiring a full remote desktop session.
+<img width="2147" height="1994" alt="FDF57365-ACCF-4C27-828C-CF2E72B8EA33" src="https://github.com/user-attachments/assets/80495adf-9f59-4bb6-a652-228ec5bcee39" />
 
-## Evidence to Add
-
-* Screenshot of Event Viewer connected to the remote computer.
-* Screenshot showing the remote computer's System or Application log.
-* Screenshot of an event's details, with sensitive information redacted.
-* Troubleshooting notes, if an issue was encountered.
