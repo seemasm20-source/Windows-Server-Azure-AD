@@ -22,7 +22,7 @@ UNC paths allow users and IT support technicians to access network folders witho
 
 
 
-## Procedure
+## Steps to Connect
 
 1. Sign in to the Windows Client VM.
 
