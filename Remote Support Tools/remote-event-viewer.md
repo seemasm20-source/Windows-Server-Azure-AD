@@ -13,7 +13,7 @@ Remote Event Viewer allows IT support technicians to inspect event logs on anoth
 
 
 
-## Procedure
+## Steps to Connect
 
 1. Sign in to the Windows machine you will use for administration.
 2. Press `Win + R`, type `eventvwr.msc`, and press Enter.
