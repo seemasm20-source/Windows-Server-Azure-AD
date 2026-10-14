@@ -64,3 +64,9 @@ UNC paths allow users and IT support technicians to access network folders witho
 
 
 
+
+
+
+<img width="2100" height="2673" alt="0387A8B0-9744-4602-9F85-ECC380DEF566" src="https://github.com/user-attachments/assets/6dac9dd3-d351-400c-a283-b150c1e998df" />
+
+
