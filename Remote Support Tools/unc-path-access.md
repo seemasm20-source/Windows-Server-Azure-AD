@@ -1,5 +1,5 @@
 
-# UNC Path Access Troubleshooting Lab
+# UNC Path Access 
 
 A Universal Naming Convention (UNC) path identifies a shared network resource using the format:
 
