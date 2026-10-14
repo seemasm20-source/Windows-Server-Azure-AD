@@ -25,7 +25,7 @@ Remote Event Viewer allows IT support technicians to inspect event logs on anoth
 8. Select **System** or **Application** to inspect the target computer's events.
 9. Open an event and review its source, Event ID, timestamp, general description and details.
 
-## Common Troubleshooting Examples
+## Troubleshooting Scenarios
 
 * **System errors:** Review the System log for unexpected shutdowns, driver problems or service failures.
 * **Application crashes:** Review the Application log for application errors.
