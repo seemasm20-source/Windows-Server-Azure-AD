@@ -2,13 +2,15 @@
 
 # 🖥️ Create Windows Server VM on Azure
 
-[← Back to Section 01 Overview](./[README.md](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/README.md))
+[← Back to Section 01 Overview](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/README.md)
 
 ---
 
 ## 📋 Summary
 
-Set up a Windows Server 2025 virtual machine on Microsoft Azure to act as the Domain Controller for the lab environment.
+Deploy a Windows Server 2025 virtual machine on Microsoft Azure to serve as the Domain Controller for the lab environment.
+
+This is the first step in building an Azure-based Windows Server and Active Directory home lab for practising IT Help Desk Tier 1 and Tier 2 troubleshooting scenarios.
 
 ---
 
@@ -16,22 +18,19 @@ Set up a Windows Server 2025 virtual machine on Microsoft Azure to act as the Do
 
 ### Step 1 - Create an Azure Account
 
-Create a free Azure account and access the Azure Portal:
+Create an Azure account and access the Azure Portal:
 
-🔗 [https://portal.azure.com](https://portal.azure.com)
-
-
+🔗 [Microsoft Azure Portal](https://portal.azure.com)
 
 ---
 
 ### Step 2 - Create a Virtual Machine
 
-In the Azure Portal:
+In the Azure Portal, navigate to:
 
-```
+```text
 Virtual Machines → Create → Azure Virtual Machine
 ```
-
 
 ---
 
@@ -39,8 +38,9 @@ Virtual Machines → Create → Azure Virtual Machine
 
 | Setting | Value |
 |---------|-------|
-| **Resource Group** | Seema ✅ |
+| **Resource Group** | Seema |
 
+Create a new resource group or select an existing one to organize the Azure resources used in this lab.
 
 ---
 
@@ -56,12 +56,10 @@ Virtual Machines → Create → Azure Virtual Machine
 
 | Setting | Value |
 |---------|-------|
-| **Region** | Germany West Central ✅ |
-| **Virtual Network (VNet) Region** | Germany West Central ✅ |
+| **Region** | Germany West Central |
+| **Virtual Network Region** | Germany West Central |
 
-> **Note:** The Virtual Network (VNet) must be in the same region as the VM - Germany West Central.
-
-
+> **Note:** The virtual network and the VM's network interface must be in the same Azure region. In this lab, both are deployed in Germany West Central.
 
 ---
 
@@ -69,9 +67,7 @@ Virtual Machines → Create → Azure Virtual Machine
 
 | Setting | Value |
 |---------|-------|
-| **Image** | Windows Server 2025 Datacenter – x64 Gen2 ✅ |
-
-
+| **Image** | Windows Server 2025 Datacenter - x64 Gen2 |
 
 ---
 
@@ -79,23 +75,22 @@ Virtual Machines → Create → Azure Virtual Machine
 
 | Setting | Value |
 |---------|-------|
-| **VM Size** | Standard DC1s_v3 ✅ |
+| **VM Size** | Standard DC1s_v3 |
 | **vCPU** | 1 |
 | **RAM** | 8 GiB |
-
 
 ---
 
 ### Step 8 - Administrator Account
 
-Create a local server administrator username and password.
+Create a local administrator username and password for the Windows Server VM.
 
-```
+```text
 Username: [your-admin-username]
-Password: [strong-password — write this down securely]
+Password: [your-strong-password]
 ```
 
-> **Important:** Store your credentials securely. You will need them every time you RDP into the server.
+> **Important:** Store your credentials securely. You will need these credentials to connect to the server using Remote Desktop Protocol (RDP).
 
 ---
 
@@ -103,10 +98,12 @@ Password: [strong-password — write this down securely]
 
 | Setting | Value |
 |---------|-------|
-| **Allow inbound port** | RDP - TCP 3389 ✅ |
+| **Allow Inbound Port** | RDP - TCP 3389 |
+| **Source** | My IP / Trusted IP address |
 
-> This allows remote administration of the Windows Server via Remote Desktop Protocol.
+RDP allows remote administration of the Windows Server VM.
 
+> **Security Note:** Restrict RDP access to a trusted source IP address. Avoid exposing TCP port 3389 to the entire internet. For production environments, consider using Azure Bastion or VPN-based access.
 
 ---
 
@@ -116,22 +113,23 @@ Password: [strong-password — write this down securely]
 |---------|-------|
 | **Virtual Network (VNet)** | vnet-germany-west-central19 |
 | **Subnet** | Existing subnet |
-| **Region** | Germany West Central ✅ |
+| **Region** | Germany West Central |
 
-> **Note:** Ensure the VNet and the VM are both located in Germany West Central.
-
+> **Note:** Ensure that the virtual network and the VM's network interface are deployed in the same region.
 
 ---
 
-### Step 11 - Network Interface / NSG
+### Step 11 - Network Interface / Network Security Group (NSG)
 
 | Setting | Value |
 |---------|-------|
-| **Additional ports** | None - do not open manually at this stage |
-| **Allowed inbound** | RDP → TCP 3389 ✅ |
+| **Additional Inbound Ports** | None |
+| **Allowed Inbound Traffic** | RDP - TCP 3389 |
+| **Source** | Trusted IP address |
 
-> For initial VM creation, do not manually open additional ports. Only RDP is required at this stage.
+The Network Security Group (NSG) controls inbound and outbound network traffic to the virtual machine.
 
+> **Note:** Only the required RDP access is configured at this stage. Additional ports will be opened later only when required for specific lab scenarios.
 
 ---
 
@@ -139,9 +137,9 @@ Password: [strong-password — write this down securely]
 
 | Setting | Value |
 |---------|-------|
-| **Disk Configuration** | Default settings ✅ |
+| **Disk Configuration** | Default settings |
 
-> Keep the default disk configuration. No changes required.
+Keep the default disk configuration for this lab.
 
 ---
 
@@ -149,311 +147,111 @@ Password: [strong-password — write this down securely]
 
 | Setting | Value |
 |---------|-------|
-| **Management Settings** | Default settings ✅ |
+| **Management Settings** | Default settings |
 
-> Keep the default management settings. No changes required.
-
----
-
-### Step 14 - Review + Create
-
-Review the full configuration summary and deploy:
-
-```
-Review + Create → Create ✅
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<img width="1920" height="1080" alt="Screenshot (560)" src="https://github.com/user-attachments/assets/3a9039a2-2900-4997-9551-e04f83a0d4ea" />
-
+Keep the default management settings for the initial deployment.
 
 ---
 
+### Step 14 - Review and Create
 
+Review the complete configuration before deploying the virtual machine.
 
+```text
+Review + Create → Create
+```
 
+Wait for the deployment to complete successfully.
 
+### 📸 Azure VM Deployment
 
+![Azure Windows Server VM deployment configuration](https://github.com/user-attachments/assets/3a9039a2-2900-4997-9551-e04f83a0d4ea)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 ## ✅ Verification
 
-After deployment completes verify the following:
+After deployment completes, verify the following configuration in the Azure Portal.
 
 | Check | Expected Result |
 |-------|----------------|
-| VM Status | Running ✅ |
-| Region | Germany West Central ✅ |
-| Image | Windows Server 2025 Datacenter ✅ |
-| Size | Standard DC1s_v3 ✅ |
-| RDP Port 3389 | Open ✅ |
-| Public IP | Assigned ✅ |
+| VM Status | Running |
+| Region | Germany West Central |
+| Operating System | Windows Server 2025 Datacenter |
+| VM Size | Standard DC1s_v3 |
+| Virtual Network | Assigned |
+| Public IP | Assigned |
+| NSG Rule | TCP 3389 allowed from trusted IP |
+| Network Interface | Successfully attached |
 
+> **Verification Note:** The NSG rule confirms that RDP traffic is permitted by the network security configuration. Actual RDP connectivity will be tested in the next lab.
 
+### 📸 Successfully Deployed Windows Server VM
 
+![Windows Server 2025 VM overview in Azure Portal](https://github.com/user-attachments/assets/0c6566e5-cf16-4f46-8ceb-3124f3eb914f)
 
+---
 
+## 💡 Key Learnings
 
+- Created and configured a Windows Server 2025 virtual machine using Microsoft Azure.
+- Learned how Azure Resource Groups organize cloud resources.
+- Understood the relationship between Azure virtual machines, virtual networks, subnets and network interfaces.
+- Configured inbound RDP access through a Network Security Group.
+- Learned the importance of restricting remote access to trusted IP addresses.
 
+---
 
+## ⚠️ Important - Azure VM Billing
 
+Shutting down Windows from inside the virtual machine does not necessarily stop compute charges.
 
+To stop compute billing when the VM is not needed:
 
+```text
+Azure Portal → Virtual Machines → server2021 → Stop
+```
 
+Ensure the VM status changes to **Stopped (deallocated)**.
 
+> Storage and other associated resources may continue to incur charges even after the VM is deallocated.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<img width="1920" height="1080" alt="Screenshot (564)" src="https://github.com/user-attachments/assets/0c6566e5-cf16-4f46-8ceb-3124f3eb914f" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 ## 💡 Next Step
 
+The Windows Server 2025 virtual machine has been successfully deployed.
+
+The next step is to connect to the server remotely using Remote Desktop Protocol (RDP).
+
 → [RDP into Server](./rdp-into-server.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
