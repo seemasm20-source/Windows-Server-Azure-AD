@@ -155,7 +155,7 @@ Password: [strong-password — write this down securely]
 
 ---
 
-### Step 14 — Review + Create
+### Step 14 - Review + Create
 
 Review the full configuration summary and deploy:
 
