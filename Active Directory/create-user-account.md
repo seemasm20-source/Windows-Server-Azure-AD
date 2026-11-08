@@ -1,36 +1,69 @@
+# 🖥️ Create a New User Account
 
-## 🖥️Create New User Account
+[ Back to Overview] → [README.md](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/README.md)
 
+---
 
+## 📋 Summary
 
-## Steps
+Create a new domain user account in Active Directory Users and Computers (ADUC), place it in the **IT** Organizational Unit, and test the account by signing in on the Windows 11 client.
 
-1. ADUC → navigate to correct Organisation Unit(OU) IT
-2. Right-click → New → User
-3. First name-John, Last name-Smith, User logon name-JohnSmith@seemaenterprise.co.in
-4. Set password → tick User must change password at next logon
-5. Finish → test login on client
+---
 
+## 💡 What is a User Account?
 
+A user account is an identity stored in Active Directory. It lets a person sign in to any domain-joined computer and receive the permissions and policies assigned to that account.
 
+| Setting | Value |
+|---------|-------|
+| **Domain** | `seemaenterprise.co.in` |
+| **Organizational Unit** | IT |
+| **First name** | John |
+| **Last name** | Smith |
+| **User logon name** | `JohnSmith@seemaenterprise.co.in` |
+| **Password option** | User must change password at next logon |
 
+---
 
+## 🔧 Steps
 
+### Step 1 - Open the IT Organizational Unit
 
+On the Domain Controller, open **Server Manager → Tools → Active Directory Users and Computers**, then expand `seemaenterprise.co.in` and select the **IT** OU.
 
+### Step 2 - Start the New User Wizard
 
+Right-click the **IT** OU and select:
 
+```text
+New → User
+```
 
+### Step 3 - Enter the User Details
 
-<img width="1920" height="1080" alt="Screenshot (587)" src="https://github.com/user-attachments/assets/ca016690-0f23-4b95-83b5-558604533b3c" />
+| Field | Value |
+|-------|-------|
+| **First name** | John |
+| **Last name** | Smith |
+| **User logon name** | `JohnSmith` with the suffix `@seemaenterprise.co.in` |
 
+Click **Next**.
 
+**Screenshot: new user details:**
 
+<img width="1920" height="1080" alt="New Object - User wizard with the name and user logon name entered" src="https://github.com/user-attachments/assets/ca016690-0f23-4b95-83b5-558604533b3c" />
 
+### Step 4 - Set the Password
 
+1. Enter a temporary password. It must meet the domain's password complexity rules.
+2. Tick **User must change password at next logon**.
+3. Click **Next**, then **Finish**.
 
+> Never show the password in screenshots or in the repository.
 
+**Screenshot: password options:**
 
+<img width="1920" height="1080" alt="New Object - User wizard password page with User must change password at next logon selected" src="https://github.com/user-attachments/assets/fd53b87a-4af3-4b81-b395-f25518c17d6b" />
 
 
 
@@ -41,96 +74,41 @@
 
 
 
+**Screenshot: user created**
 
+<img width="1920" height="1080" alt="Active Directory Users and Computers showing John Smith in the IT OU" src="https://github.com/user-attachments/assets/e7531f20-71b2-4361-a5bc-12b52640b069" />
 
 
 
 
 
+---
 
 
+### Step 5 - Test the Sign-In on the Client
 
+On the Windows 11 client, sign in with the new account:
 
+```text
+Username: SEEMAENTERPRISE\JohnSmith
+```
 
+Windows asks you to change the temporary password before the first sign-in. Enter a new password and continue.
 
+---
 
+## ✅ Verification
 
+| Check | Where | Expected Result |
+|-------|-------|-----------------|
+| User exists | ADUC → IT OU | `John Smith` is listed ✅ |
+| Password prompt | Client sign-in | Windows asks for a new password at the first sign-in ✅ |
+| Domain sign-in | Windows 11 client | `JohnSmith` signs in successfully ✅ |
 
 
 
+---
 
+## 💡 Next Step
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<img width="1920" height="1080" alt="Screenshot (588)" src="https://github.com/user-attachments/assets/fd53b87a-4af3-4b81-b395-f25518c17d6b" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<img width="1920" height="1080" alt="Screenshot (589)" src="https://github.com/user-attachments/assets/e7531f20-71b2-4361-a5bc-12b52640b069" />
-
-
-
+→ [Reset a User Password](./reset-user-password.md)
