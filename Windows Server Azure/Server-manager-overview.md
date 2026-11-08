@@ -53,11 +53,7 @@ Check the following in Server Manager:
 
 ---
 
-## 📝 Technical Notes
 
-- **Before installing AD DS:** Set the server's private IP address to **Static** in the Azure network interface settings, so the Domain Controller's address does not change.
-- **Server Manager is not the same as the Azure Portal:** The Azure Portal manages the VM as a cloud resource, for example Stop and Start. Server Manager manages Windows inside the VM, for example roles and local settings.
-- **Privacy:** Crop the RDP connection bar at the top of the screen before publishing a screenshot, because it shows the server's address. Check that no IP address or username is visible.
 
 ---
 
