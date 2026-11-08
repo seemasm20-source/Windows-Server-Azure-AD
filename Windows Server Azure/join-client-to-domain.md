@@ -1,6 +1,5 @@
 
 # 🖥️ Join Windows 11 Client to Domain
-
 [ Back to Section 01 README]  → [[Windows Server & Azure AD – GitHub README](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/README.md))
 
 ---
