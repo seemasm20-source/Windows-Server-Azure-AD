@@ -1,74 +1,153 @@
 
-## 🖥️ Join Windows 11 Client to Domain
+# 🖥️ Join Windows 11 Client to Domain
 
-   ## Steps to document: 
+[ Back to Overview] → [README.md](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/README.md)
 
-## 1. Connect to the Windows Client :- Log in to the Windows Client VM using Remote Desktop (RDP).
+---
 
+## 📋 Summary
 
+Join the Windows 11 Pro client VM to the `seemaenterprise.co.in` domain. Once joined, the client can sign in with domain accounts and receive Group Policy from the Domain Controller.
 
+---
 
+## 💡 What Does Joining a Domain Do?
 
+Joining a domain makes the computer a member of Active Directory. Users sign in with their domain accounts, and the Domain Controller authenticates them and manages the computer's settings.
 
+| Requirement | Value |
+|-------------|-------|
+| **Domain name** | `seemaenterprise.co.in` |
+| **Domain Controller / DNS server** | `172.16.0.4` |
+| **Client OS** | Windows 11 Pro (Windows Home cannot join a domain) |
+| **Network** | The client VM must be on the same virtual network as the Domain Controller |
+| **Credentials** | A domain account allowed to join computers |
 
+---
 
-<img width="1920" height="1080" alt="Screenshot (577)" src="https://github.com/user-attachments/assets/6bc1748d-f7f0-4fdf-8ec3-adaa5f8b8451" />
+## 🔧 Steps
 
+### Step 1 - Connect to the Windows Client
 
+Connect to the Windows 11 client VM with Remote Desktop (RDP).
 
+**Screenshot: connected to the client VM:**
 
+<img width="1920" height="1080" alt="Remote Desktop session on the Windows 11 client VM" src="https://github.com/user-attachments/assets/6bc1748d-f7f0-4fdf-8ec3-adaa5f8b8451" />
 
+### Step 2 - Open Network Adapter Settings
 
+1. Press **Win + R**.
+2. Type `ncpa.cpl` and press **Enter**.
 
+The **Network Connections** window opens.
 
+**Screenshot: Network Connections:**
 
+<img width="2268" height="1724" alt="Network Connections window opened with ncpa.cpl" src="https://github.com/user-attachments/assets/4e7c6d06-dd58-49e2-8a3d-400c6d0b7391" />
 
+### Step 3 - Set the DNS Server to the Domain Controller
 
+The client must use the Domain Controller as its DNS server, otherwise it cannot find the domain.
 
+1. Right-click the active network adapter and select **Properties**.
+2. Select **Internet Protocol Version 4 (TCP/IPv4)** and click **Properties**.
+3. Select **Use the following DNS server addresses**.
+4. Enter the Domain Controller's IP address:
 
+| Setting | Value |
+|---------|-------|
+| **Preferred DNS server** | `172.16.0.4` |
 
+5. Click **OK**.
 
+Check that the client can find the domain:
 
+```text
+C:\> nslookup seemaenterprise.co.in
+```
 
+The result should show the Domain Controller's IP address.
 
-## 2. Open Network Adapter Settings
+**Screenshot: DNS server set to the Domain Controller:**
 
- Press: Win + R
+<img width="2268" height="4032" alt="IPv4 properties with the preferred DNS server set to 172.16.0.4" src="https://github.com/user-attachments/assets/7f844de5-28b9-4cd8-8024-a5730196333e" />
 
- Type: ncpa.cpl
+### Step 4 - Open System Properties
 
- Press Enter.
+Search the Start menu for **Advanced system settings**, then open **View advanced system settings**. The **System Properties** window opens.
 
- The Network Connections window will open.
+You can also press **Win + R**, type `sysdm.cpl` and press **Enter**.
 
+### Step 5 - Open Computer Name Settings
 
+1. In System Properties, select the **Computer Name** tab.
+2. Click **Change...**
 
+**Screenshot: Computer Name tab:**
 
+<img width="2268" height="4032" alt="System Properties Computer Name tab with the Change button" src="https://github.com/user-attachments/assets/1a9ac40d-40cb-427b-963a-2b73f4d7fbe8" />
 
+### Step 6 - Join the Domain
 
+1. Under **Member of**, select **Domain**.
+2. Enter the domain name: `seemaenterprise.co.in`
+3. Click **OK**.
 
+**Screenshot: domain name entered:**
 
+<img width="2268" height="1985" alt="Computer Name Changes window with the domain seemaenterprise.co.in" src="https://github.com/user-attachments/assets/9c72e839-438b-4157-a1de-e67eb49c73ee" />
 
+### Step 7 - Enter Domain Credentials
 
+A **Windows Security** prompt appears. Enter the credentials of a domain account that can join computers:
 
-<img width="2268" height="1724" alt="IMG_0419" src="https://github.com/user-attachments/assets/4e7c6d06-dd58-49e2-8a3d-400c6d0b7391" />
+```text
+Username: SEEMAENTERPRISE\<domain-admin-username>
+Password: <domain-admin-password>
+```
 
+Click **OK**.
 
+> Never show the password in screenshots or in the repository.
 
+### Step 8 - Confirm the Domain Join and Restart
 
+If the credentials and the DNS setting are correct, Windows shows:
 
+```text
+Welcome to the seemaenterprise.co.in domain.
+```
 
+1. Click **OK**.
+2. Windows asks you to restart the computer. Click **OK**, then **Restart now**.
 
+After the restart, the client is a member of `seemaenterprise.co.in`.
 
+---
 
+## ✅ Verification
 
+After the restart, sign in and check the domain membership:
 
+1. Press **Win + R**, type `sysdm.cpl` and press **Enter**.
+2. Open the **Computer Name** tab.
+3. Check that **Domain** shows `seemaenterprise.co.in`.
 
+| Check | Where | Expected Result |
+|-------|-------|-----------------|
+| DNS server | Network adapter properties | `172.16.0.4` ✅ |
+| Domain lookup | `nslookup seemaenterprise.co.in` | Returns the Domain Controller's IP ✅ |
+| Domain membership | System Properties → Computer Name | Domain: `seemaenterprise.co.in` ✅ |
+| Domain sign-in | Windows sign-in screen | `SEEMAENTERPRISE\<username>` works ✅ |
 
 
 
+---
 
+## 💡 Next Step
 
+→ [Group Policy](./group-policy.md)
 
 
 
@@ -93,17 +172,8 @@
 
 
 
-## 3. Configure the DNS Server
- 
-   Right-click the active Network Adapter.
- 
-   Select Properties →  Select Internet Protocol Version 4 (TCP/IPv4) →  Click Properties 
- 
-  →  Select: Use the following DNS server addresses
 
-  →   Enter the Domain Controller / DNS Server IP address:
 
-  →  Preferred DNS server: 172.16.0.4
 
 
 
@@ -118,7 +188,6 @@
 
 
 
-<img width="2268" height="4032" alt="IMG_0421" src="https://github.com/user-attachments/assets/7f844de5-28b9-4cd8-8024-a5730196333e" />
 
 
 
@@ -140,11 +209,8 @@
 
 
 
-## 4. Open System Properties
 
-    From the Windows Start menu, search for:
 
- →  Advanced system settings  → Open View advanced system settings  → The System Properties window will appear.
 
 
 
@@ -154,12 +220,8 @@
 
 
 
-## 5. Open Computer Name Settings
 
- In System Properties:
 
- Select the Computer Name tab.
- Click Change...
 
 
 
@@ -184,7 +246,6 @@
 
 
 
-<img width="2268" height="4032" alt="IMG_0422" src="https://github.com/user-attachments/assets/1a9ac40d-40cb-427b-963a-2b73f4d7fbe8" />
 
 
 
@@ -198,120 +259,3 @@
 
 
 
-## 6. Join the Domain
-
- Under Member of, select:
-
- Domain
-
-Enter the Active Directory domain name: seemaenterprise.co.in
-
-
-Click : OK
-
-
-
-
-<img width="2268" height="1985" alt="IMG_0424" src="https://github.com/user-attachments/assets/9c72e839-438b-4157-a1de-e67eb49c73ee" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 7. Enter Domain Administrator Credentials
-
- Windows will display a Windows Security prompt.
-
- Enter the domain administrator credentials:
-
- Username: seemaenterprise.co.in\seema
-
- Password: <Domain Administrator Password>
-
- Click OK.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 8. Confirm Domain Join
-
-    If the credentials and DNS configuration are correct, Windows should display a message similar to:
-
-   Welcome to the seemaenterprise.co.in domain.
-
-   Click OK.
-
-   Windows may then display a message indicating that the computer needs to be restarted.
-
-
-
-
-
-
-
-## 9. Restart the Windows Client
-
-   Click OK, then restart the Windows Client.
- 
-  After the restart, the client will be a member of seemaenterprise.co.in
-
-
-
-
-
-## 10. Verification
-
-After restarting, log in and verify the domain membership.
-
-Press: Win + R
-
-Type: sysdm.cpl
-
-Go to the Computer Name tab
-Verify that Domain shows: seemaenterprise.co.in
-
-
-
-
-
-
-
-
-
-
-<img width="2268" height="1985" alt="IMG_0424" src="https://github.com/user-attachments/assets/54990c19-1c76-4786-b77f-ce97e944ee72" />
