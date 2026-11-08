@@ -65,7 +65,7 @@ Right-click the new group `HR-Users` and select **Properties**, then open the **
 
 1. On the **Members** tab, click **Add...**
 2. Enter the user names and click **Check Names**.
-3. Click **OK**, then **OK** again to save.
+3. Click **APPLY**, then **OK** again to save.
 
 The users now appear in the **Members** list.
 
