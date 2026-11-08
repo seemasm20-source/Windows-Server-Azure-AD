@@ -85,29 +85,11 @@ Click **Next**.
 ---
 
 
-### Step 5 - Test the Sign-In on the Client
-
-On the Windows 11 client, sign in with the new account:
-
-```text
-Username: SEEMAENTERPRISE\JohnSmith
-```
-
-Windows asks you to change the temporary password before the first sign-in. Enter a new password and continue.
-
----
-
-## ✅ Verification
-
-| Check | Where | Expected Result |
-|-------|-------|-----------------|
-| User exists | ADUC → IT OU | `John Smith` is listed ✅ |
-| Password prompt | Client sign-in | Windows asks for a new password at the first sign-in ✅ |
-| Domain sign-in | Windows 11 client | `JohnSmith` signs in successfully ✅ |
 
 
 
----
+
+
 
 ## 💡 Next Step
 
