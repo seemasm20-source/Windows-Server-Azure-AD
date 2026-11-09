@@ -120,7 +120,7 @@ Expand `seemaenterprise.co.in` in ADUC and check that all OUs are listed.
 | Unlock a locked account | User → **Properties → Account** | [Unlock a User Account](./unlock-user-account.md) |
 | Disable or enable an account | User → **Disable / Enable Account** | [Enable and Disable Active Directory User Accounts](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Active%20Directory/enable-disable-users.md)|
 | Find a user | **Action → Find** | [Find a User Account in Active Directory](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Active%20Directory/find-user-in-ad.md) |
-| Move a user between OUs | User → **Move** | [Move User Between OUs](./move-user-between-ous.md) |
+| Move a user between OUs | User → **Move** | [[Move User Between OUs](./move-user-between-ous.md)](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Active%20Directory/move-users-between-ou.md) |
 | Create a security group and add members | OU → **New → Group** | [Create Active Directory Security Groups](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Active%20Directory/create-security-groups.md)
 | Locate or move a computer account | Domain → **Find**, then **Move** | Not covered yet |
 
