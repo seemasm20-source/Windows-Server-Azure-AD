@@ -121,7 +121,7 @@ Expand `seemaenterprise.co.in` in ADUC and check that all OUs are listed.
 | Disable or enable an account | User → **Disable / Enable Account** | [Enable and Disable User Accounts](./enable-disable-user-accounts.md) |
 | Find a user | **Action → Find** | [Find and Search Users in AD](./find-search-users.md) |
 | Move a user between OUs | User → **Move** | [Move User Between OUs](./move-user-between-ous.md) |
-| Create a security group and add members | OU → **New → Group** | [[Create Security Groups](./create-security-groups.md)](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Active%20Directory/create-security-groups.md) |
+| Create a security group and add members | OU → **New → Group** | [Create Active Directory Security Groups](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Active%20Directory/create-security-groups.md)
 | Locate or move a computer account | Domain → **Find**, then **Move** | Not covered yet |
 
 ---
