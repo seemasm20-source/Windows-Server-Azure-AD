@@ -116,7 +116,7 @@ Expand `seemaenterprise.co.in` in ADUC and check that all OUs are listed.
 |------|----------------|----------|
 | Create an OU | Domain → **New → Organizational Unit** | This file |
 | Create a user account | OU → **New → User** | [Create a New User Account](./create-user-account.md) |
-| Reset a user's password | User → **Reset Password** | [Reset a User Password](./reset-user-password.md) |
+| Reset a user's password | User → **Reset Password** | [[Reset Active Directory User Password](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Active%20Directory/reset-password.md)) |
 | Unlock a locked account | User → **Properties → Account** | [Unlock a User Account](./unlock-user-account.md) |
 | Disable or enable an account | User → **Disable / Enable Account** | [Enable and Disable User Accounts](./enable-disable-user-accounts.md) |
 | Find a user | **Action → Find** | [Find and Search Users in AD](./find-search-users.md) |
