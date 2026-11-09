@@ -118,7 +118,7 @@ Expand `seemaenterprise.co.in` in ADUC and check that all OUs are listed.
 | Create a user account | OU → **New → User** | [Create a New User Account](./create-user-account.md) |
 | Reset a user's password | User → **Reset Password** | [Reset Active Directory User Password](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Active%20Directory/reset-password.md) |
 | Unlock a locked account | User → **Properties → Account** | [Unlock a User Account](./unlock-user-account.md) |
-| Disable or enable an account | User → **Disable / Enable Account** | [Enable and Disable User Accounts](./enable-disable-user-accounts.md) |
+| Disable or enable an account | User → **Disable / Enable Account** | [Enable and Disable Active Directory User Accounts](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Active%20Directory/enable-disable-users.md)|
 | Find a user | **Action → Find** | [Find and Search Users in AD](./find-search-users.md) |
 | Move a user between OUs | User → **Move** | [Move User Between OUs](./move-user-between-ous.md) |
 | Create a security group and add members | OU → **New → Group** | [Create Active Directory Security Groups](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Active%20Directory/create-security-groups.md)
