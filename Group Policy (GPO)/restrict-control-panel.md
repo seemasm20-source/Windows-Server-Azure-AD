@@ -131,6 +131,10 @@ This operation has been cancelled due to restrictions in effect on this computer
 
 <img width="2268" height="3119" alt="Restriction message when opening the Control Panel with Option A" src="https://github.com/user-attachments/assets/79c3e409-193b-476a-9e71-d47eafab5995" />
 
+
+
+
+---
 **Screenshots: Option B test : Restricting only Network and Sharing Centre and Program and Features**
 
 <img width="2268" height="2206" alt="Control Panel with Programs and Features hidden" src="https://github.com/user-attachments/assets/aed2e2f0-05b4-4c0b-813c-d1efd29449f7" />
@@ -240,4 +244,4 @@ This operation has been cancelled due to restrictions in effect on this computer
 
 
 
-<img width="2185" height="2514" alt="IMG_0524" src="https://github.com/user-attachments/assets/f604b69a-5c58-46e1-98e3-b2df219ef0f7" />
+
