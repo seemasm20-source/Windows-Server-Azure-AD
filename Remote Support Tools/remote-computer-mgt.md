@@ -111,7 +111,7 @@ Expand the sections in the left pane and check which tools you can open on the r
 
 ## 💡 Next Step
 
-→ [Remote Support Tools](./remote-support-tools.md)
+→ [Remote Desktop Protocol (RDP) – Troubleshooting Guide](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Remote%20Support%20Tools/remote-desktop-protocol.md)
 
 
 
