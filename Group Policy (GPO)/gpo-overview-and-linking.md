@@ -83,7 +83,7 @@ A **Group Policy Object (GPO)** is a set of settings stored on the Domain Contro
 |-------|-------------|--------------|----------|
 | **Disable USB Storage** | Computer Configuration | Blocks USB storage devices | [Disable USB Storage](./disable-usb-storage.md) |
 | **Drive Mapping** | User Configuration (Preferences) | Maps `Companyshare` as a drive at sign-in | [Drive Mapping Using Group Policy (GPO)](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Group%20Policy%20(GPO)/drive-mapping-via-gpo.md) |
-| **Password and Lockout Policy** | Computer Configuration (Account Policies) | Sets password rules and account lockout | [Password and Lockout Policy](./password-lockout-policy.md) |
+| **Password and Lockout Policy** | Computer Configuration (Account Policies) | Sets password rules and account lockout | [Password and Account Lockout Policy Using Group Policy (GPO)](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Group%20Policy%20(GPO)/password-lockout-policy.md) |
 | **Restrict Control Panel** | User Configuration | Blocks or hides Control Panel items | [Restrict Control Panel Access](./restrict-control-panel.md) |
 | **Troubleshooting** | Not applicable | Checklist for a GPO that does not apply, plus `gpupdate` and `gpresult` | [Troubleshoot GPO Not Applying](./troubleshoot-gpo.md) |
 
