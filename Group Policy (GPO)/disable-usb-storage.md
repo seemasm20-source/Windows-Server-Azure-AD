@@ -111,7 +111,7 @@ C:\> gpupdate /force
 
 ## 💡 Next Step
 
-→ [Map Network Drives with Group Policy](./map-drives-group-policy.md)
+→ [Drive Mapping Using Group Policy (GPO)](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Group%20Policy%20(GPO)/drive-mapping-via-gpo.md)
 
 
 
