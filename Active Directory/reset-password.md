@@ -82,4 +82,4 @@ Password: <temporary password>
 
 ## 💡 Next Step
 
-→ [Unlock a User Account](./unlock-user-account.md)
+→ [Unlock an Active Directory User Account](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Active%20Directory/unlock-account.md)
