@@ -45,3 +45,8 @@ Remote Event Viewer allows IT support technicians to inspect event logs on anoth
 
 <img width="2147" height="1994" alt="FDF57365-ACCF-4C27-828C-CF2E72B8EA33" src="https://github.com/user-attachments/assets/80495adf-9f59-4bb6-a652-228ec5bcee39" />
 
+
+
+## 💡 Next Step
+
+→ [UNC Path Access – Windows Network Sharing](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Remote%20Support%20Tools/unc-path-access.md)
