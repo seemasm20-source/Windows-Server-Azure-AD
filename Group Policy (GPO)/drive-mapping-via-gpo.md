@@ -126,7 +126,7 @@ Check in File Explorer:
 
 ## 💡 Next Step
 
-→ [Group Policy Overview](./group-policy-overview.md)
+→ [Password and Account Lockout Policy Using Group Policy (GPO)](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Group%20Policy%20(GPO)/password-lockout-policy.md)
 
 
 
