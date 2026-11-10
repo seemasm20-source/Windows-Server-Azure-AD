@@ -132,7 +132,7 @@ The referenced account is currently locked out and may not be logged on to.
 
 ## 💡 Next Step
 
-→ [Group Policy Overview](./group-policy-overview.md)
+→ [Restrict Control Panel Access Using Group Policy (GPO)](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Group%20Policy%20(GPO)/restrict-control-panel.md)
 
 
 
