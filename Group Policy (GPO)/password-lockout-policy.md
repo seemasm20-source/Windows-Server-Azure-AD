@@ -106,7 +106,7 @@ C:\> gpupdate /force
 The referenced account is currently locked out and may not be logged on to.
 ```
 
-4. To unlock the account before the 30 minutes end, use ADUC. See [Unlock a User Account](./unlock-user-account.md)
+4. To unlock the account before the 30 minutes end, use ADUC. See [Unlock an Active Directory User Account](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Active%20Directory/unlock-account.md)
 
 **Screenshots: lockout test:**
 
