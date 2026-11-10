@@ -1,7 +1,7 @@
 
 # 🖥️ Group Policy Overview and OU Linking
 
-[ Back to Overview] → [README.md](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/README.md)
+[ Back to Overview] → [Group Policy (GPO) Overview and Linking](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Group%20Policy%20(GPO)/gpo-overview-and-linking.md)
 
 ---
 
