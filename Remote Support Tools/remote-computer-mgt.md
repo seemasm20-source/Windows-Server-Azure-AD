@@ -91,9 +91,7 @@ Expand the sections in the left pane and check which tools you can open on the r
 
 <img width="1920" height="1080" alt="Right-click menu on Computer Management Local with Connect to another computer" src="https://github.com/user-attachments/assets/d3a66ad7-155b-40b1-b088-ad025741bf06" />  
 
-<img width="1920" height="1080" alt="Computer Management connected to server2021 with Event Viewer expanded" src="https://github.com/user-attachments/assets/35fedf20-d734-40e6-85dd-c79c7840fbcc" />
 
-<img width="1920" height="1080" alt="Computer Management connected to server2021 showing the Services list" src="https://github.com/user-attachments/assets/b8bbd93d-5cf9-4618-ada5-6af7cfe8bd84" />
 
 ---
 
