@@ -157,7 +157,7 @@ This operation has been cancelled due to restrictions in effect on this computer
 
 ## 💡 Next Step
 
-→ [Group Policy Overview](./group-policy-overview.md)
+→ [Troubleshooting Group Policy (GPO) Not Applying](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Group%20Policy%20(GPO)/troubleshooting-gpo-not-applying.md)
 
 
 
