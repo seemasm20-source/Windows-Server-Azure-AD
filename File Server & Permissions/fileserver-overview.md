@@ -75,7 +75,7 @@ C:\Companyshare          ← shared as \\server2021\Companyshare
 
 | Method | How | Example |
 |--------|-----|---------|
-| **UNC path by name** | **Windows key + R**, then enter the path | `\\server2021\Companyshare` |
+|Universal Naming Convention **UNC path by name** | **Windows key + R**, then enter the path | `\\server2021\Companyshare` |
 | **UNC path by IP** | Same, using the server's private IP | `\\172.16.0.4\Companyshare` |
 | **Mapped drive** | File Explorer → **This PC** → **Map network drive** | `Z:` |
 
