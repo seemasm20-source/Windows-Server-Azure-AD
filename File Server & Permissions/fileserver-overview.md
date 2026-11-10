@@ -81,16 +81,9 @@ C:\Companyshare          ← shared as \\server2021\Companyshare
 
 ---
 
-## ⚠️ Common Problems
 
-| Symptom | Likely cause | What to check |
-|---------|--------------|---------------|
-| "Network path not found" (error 53) | SMB blocked, or the server name does not resolve | The SMB inbound firewall rule, and try the IP address instead of the name. See the Firewall Connectivity Issues scenario |
-| "Access denied" | The user has no share or NTFS permission | Both permission sets, because the stricter one applies |
-| User can open a file but cannot save it | NTFS permission is Read or Read & Execute | Change the NTFS permission to Modify if editing is allowed |
-| Mapped drive missing after a restart | **Reconnect at sign-in** was not ticked | Map the drive again with the option ticked |
 
----
+
 
 ## ✅ Lab Verification
 
