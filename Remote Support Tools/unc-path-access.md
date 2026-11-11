@@ -83,11 +83,7 @@ The shared folder opens and shows its contents.
 
 ## 🔗 Related Labs
 
-| Topic | Why it matters for UNC access | Lab file |
-|-------|-------------------------------|----------|
-| **File Server** | The share that the UNC path points to | [File Server](../File%20Server/fileserver.md) |
-| **Create Shared Folders** | How `Companyshare` was created and shared | [Create Shared Folders](../File%20Server/create-shared-folders.md) |
-| **NTFS Permissions** | The permissions that decide what the user can do in the share | [NTFS File Sharing and Permissions](../File%20Server/ntfs-permissions.md) |
+Check out →  [File Server and Permissions – Windows Server](https://github.com/seemasm20-source/Windows-Server-Azure-AD/tree/main/File%20Server%20%26%20Permissions)
 ---
 
 ## 💡 Next Step
