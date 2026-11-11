@@ -1,17 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # 🖥️ Event ID 4625 and 4624 - Failed and Successful Logon
 
 [ Back to Overview] → [README.md](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/README.md)
@@ -69,7 +56,7 @@ The events are in the **client's** Security log, and reading it needs administra
 ```text
 Audit Failure
 Account For Which Logon Failed:   Account Name: Sam
-Logon Type: 7
+Logon Type: 3
 ```
 
 **Screenshots: failed logon (Event ID 4625):**
@@ -94,14 +81,21 @@ On the same lock screen, enter Sam's **correct password**. The screen unlocks an
 ```text
 Audit Success
 New Logon:   Account Name: Sam
-Logon Type: 7
+Logon Type: 3
 ```
 
 **Screenshots: successful logon (Event ID 4624):**
 
-<!-- Add the screenshot of the Security log filtered by 4624 here -->
+<img width="1920" height="1080" alt="Screenshot (663)" src="https://github.com/user-attachments/assets/c4b073fa-fd99-4e2c-9289-725878e8e6b8" />
 
-<!-- Add the screenshot of the Event 4624 details here -->
+
+
+
+
+
+
+
+<img width="1920" height="1080" alt="Screenshot (664)" src="https://github.com/user-attachments/assets/3d455027-ea77-4d61-9fc2-148a02e4dc7b" />
 
 > Clear the filter when you finish, or set it to `4624,4625` to see both events together.
 
