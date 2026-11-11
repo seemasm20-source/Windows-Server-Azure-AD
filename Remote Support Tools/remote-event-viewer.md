@@ -63,6 +63,11 @@ server2021
 
 > To find a problem faster, right-click the log, select **Filter Current Log...**, and tick **Critical**, **Error** and **Warning**.
 
+
+
+<img width="1920" height="1080" alt="Screenshot (667)" src="https://github.com/user-attachments/assets/f7f6e82b-b87c-442e-9d4a-89cf850dd6fd" />
+
+
 ---
 
 ## 🛠️ What to Look For
