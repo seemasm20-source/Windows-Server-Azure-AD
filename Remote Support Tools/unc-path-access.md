@@ -65,6 +65,14 @@ The shared folder opens and shows its contents.
 
 <img width="2100" height="2673" alt="Shared folder Companyshare opened on the Windows 11 client using a UNC path" src="https://github.com/user-attachments/assets/6dac9dd3-d351-400c-a283-b150c1e998df" />
 
+
+
+
+<img width="2160" height="2880" alt="The Companyshare folder opened on the Windows 11 client" src="https://github.com/user-attachments/assets/d85290a7-1814-4f34-a81b-0185529bff2c" />
+
+> If you get "network path not found", check the SMB inbound firewall rule, as in the Firewall Connectivity Issues scenario.
+
+
 ---
 
 ## 🛠️ Troubleshooting UNC Access
