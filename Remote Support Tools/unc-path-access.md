@@ -80,25 +80,14 @@ The shared folder opens and shows its contents.
 
 ---
 
-## 🔐 Permissions to Check
 
-| Permission type | What it controls |
-|-----------------|------------------|
-| **Share permissions** | Access through the network share |
-| **NTFS permissions** | Access to the files and folders on the disk |
-| **Effective access** | Both apply, and the **more restrictive** combination decides what the user can do |
+## 🔗 Related Labs
 
----
-
-## ✅ Verification
-
-| Check | Where | Expected Result |
-|-------|-------|-----------------|
-| Name resolves | `nslookup server2021` | The server's IP address is returned ✅ |
-| Port reachable | `Test-NetConnection server2021 -Port 445` | `TcpTestSucceeded : True` ✅ |
-| Share opens | Run → `\\server2021\Companyshare` | The folder opens ✅ |
-| Permitted action | Open or create a test file | Works as the user's permissions allow ✅ |
-
+| Topic | Why it matters for UNC access | Lab file |
+|-------|-------------------------------|----------|
+| **File Server** | The share that the UNC path points to | [File Server](../File%20Server/fileserver.md) |
+| **Create Shared Folders** | How `Companyshare` was created and shared | [Create Shared Folders](../File%20Server/create-shared-folders.md) |
+| **NTFS Permissions** | The permissions that decide what the user can do in the share | [NTFS File Sharing and Permissions](../File%20Server/ntfs-permissions.md) |
 ---
 
 ## 💡 Next Step
