@@ -85,17 +85,10 @@ server2021
 | **The RPC server is unavailable** | The remote Event Log firewall rule is off | On the target, enable the inbound rule **Remote Event Log Management** |
 | **Security log is empty or blocked** | Auditing is off, or the account lacks permission | Check the audit policy, and use an administrator account |
 
----
 
-## ✅ Verification
-
-| Check | Where | Expected Result |
-|-------|-------|-----------------|
-| Remote connection | Event Viewer | The tree shows **Event Viewer (server2021)** ✅ |
-| Logs load | Windows Logs → System / Application | Events of `server2021` are listed ✅ |
-| Event details | Double-click an event | Source, Event ID, time and description are readable ✅ |
 
 ---
+
 
 ## 💡 Next Step
 
