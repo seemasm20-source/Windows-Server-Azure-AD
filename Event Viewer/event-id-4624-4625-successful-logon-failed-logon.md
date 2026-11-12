@@ -34,6 +34,13 @@ Windows records every sign-in attempt in the **Security** log. Event ID **4625**
 1. On the Windows 11 client, press **Windows key + L** to lock the screen.
 2. Select Sam's account and enter a **wrong password**. Windows refuses the sign-in.
 
+
+    **Screenshots: User Account Locked :**
+
+   <img width="2268" height="3332" alt="Windows sign-in screen showing that the account is locked out" src="https://github.com/user-attachments/assets/c309ce41-ca4f-4c9d-9c4b-eca60fcdb87c" />
+
+
+---
 ### Step 2 - Find Event ID 4625
 
 The events are in the **client's** Security log, and reading it needs administrator rights.
