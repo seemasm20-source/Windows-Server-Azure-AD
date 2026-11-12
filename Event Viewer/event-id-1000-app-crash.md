@@ -60,12 +60,6 @@ Read the faulting application, the faulting module and the exception code, and c
 |--------|----------------------|-----------------|----------------|
 | Outlook keeps crashing | `OUTLOOK.EXE` | `mso.dll` | `0xc0000005` |
 
-Also look at nearby events:
-
-| Event ID | Meaning |
-|----------|---------|
-| **1001** | Windows Error Reporting recorded the crash details |
-| **1002** | The application stopped responding (a hang) |
 
 ### Step 3 - Fix the Problem
 
