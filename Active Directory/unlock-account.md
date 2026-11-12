@@ -71,7 +71,7 @@ The account is unlocked, and the user can sign in again with their existing pass
 
 ## 💡 Next Step
 
-→ [Enable and Disable User Accounts](./enable-disable-user-accounts.md)
+→ [Enable and Disable Active Directory User Accounts](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Active%20Directory/enable-disable-users.md)
 
 
 
