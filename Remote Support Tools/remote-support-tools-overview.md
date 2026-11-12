@@ -54,4 +54,4 @@ Remote support tools let a technician reach another computer over the network. S
 
 ## 💡 Next Step
 
-→ [Windows Server on Azure Overview](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/README.md)
+→ [Event Viewer – Windows Server Troubleshooting Projects](https://github.com/seemasm20-source/Windows-Server-Azure-AD/tree/main/Event%20Viewer)
