@@ -68,7 +68,7 @@ Type part of the name in the **Name** field and click **Find Now**.
 
 ## 💡 Next Step
 
-→ [Find a User Account in Active Directory](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Active%20Directory/find-user-in-ad.md)
+→ [Move Active Directory Users Between OUs](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Active%20Directory/move-users-between-ou.md)
 
 
 
