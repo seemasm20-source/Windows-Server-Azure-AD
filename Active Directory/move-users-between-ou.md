@@ -66,7 +66,7 @@ Some user settings, such as drive mappings, apply only after the user signs out 
 
 ## 💡 Next Step
 
-→ [Group Policy](./group-policy.md)
+→ [Create Active Directory Security Groups](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Active%20Directory/create-security-groups.md)
 
 
 
