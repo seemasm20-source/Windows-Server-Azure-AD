@@ -52,17 +52,7 @@ Press **Win + R**, type `eventvwr.msc` and press **Enter**.
 
 <img width="1920" height="1080" alt="Event 41 details showing BugcheckCode and SleepInProgress" src="https://github.com/user-attachments/assets/4fc20fa9-3304-4749-b878-cec43071b2c8" />
 
-### Step 3 - Check the Events Around It
-
-Clear the filter and look at the events just before the time of the shutdown:
-
-| Event ID | Meaning | What it tells you |
-|----------|---------|-------------------|
-| **6008** | The previous system shutdown was unexpected | Confirms the unclean shutdown |
-| **1001** | BugCheck | A blue screen happened, and the stop code is listed |
-| **1074** | A process started a shutdown or restart | The restart was planned, for example by Windows Update |
-| **6005 / 6006** | The Event Log service started / stopped | Marks a normal startup or shutdown |
-| **Disk, driver or WHEA errors** | Hardware or driver faults | Points to a failing disk, driver or hardware |
+---
 
 ### Step 4 - Investigate the Cause
 
@@ -78,18 +68,9 @@ Work from the simplest cause to the hardest:
 C:\> sfc /scannow
 ```
 
----
 
-## 🛠️ Common Causes
 
-| Cause | Typical sign |
-|-------|--------------|
-| **Power cut or loose power** | BugcheckCode 0, no warning events before the shutdown |
-| **Blue screen (BSOD)** | A non-zero BugcheckCode, and Event ID 1001 |
-| **Overheating** | A sudden shutdown under load, with thermal or fan warnings |
-| **Faulty driver or update** | The event started after a driver or update change |
-| **Hardware failure** | Repeated events, with disk or hardware errors nearby |
-| **Sleep or hibernate problem** | SleepInProgress is non-zero |
+
 
 ---
 
@@ -99,7 +80,7 @@ C:\> sfc /scannow
 |-------|-------|-----------------|
 | Event found | System log, filtered by 41 | The entry is listed with **Level: Critical** ✅ |
 | Cause investigated | Events around the shutdown, and the checks in Step 4 | A likely cause is identified ✅ |
-| Normal restart | Restart the computer from the Start menu | Events **1074** and **6006** are recorded, and no new Event 41 appears ✅ |
+| Normal restart | Restart the computer from the Start menu |  new Event 41 appears ✅ |
 | Monitoring | Event Viewer over the next days | No new unexpected shutdown ✅ |
 
 ---
@@ -132,56 +113,6 @@ C:\> sfc /scannow
 
 
 
-## Event ID 41 - Unexpected Shutdown
-
-   Event ID 41 - Kernel-Power
-
-   Log: Windows Logs → System
-
-   Level: Critical
-
-   Computer: LAPTOP-MN70JUKE
-
-   BugcheckCode: 0
-
-   SleepInProgress: 4
-
-## Meaning: System restarted without clean shutdown
-
-## Causes: Power cut, BSOD, overheating, hardware failure,unexpected restart.
-
-
- ## Investigate:
-
-1. Open Event Viewer using eventvwr.msc.
-
-2. Navigate to Windows Logs → System and find Event ID 41.
-
-3. Check nearby events for clues about unexpected shutdowns, crashes or power interruptions.
-
-4. Check Windows updates, device drivers, overheating and power-related issues as appropriate.
-   
-5. Run sfc /scannow in an elevated Command Prompt to check and repair protected Windows system files.
-
-## Verification: Restart the computer normally and monitor whether the unexpected shutdown occurs again.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<img width="1920" height="1080" alt="Screenshot (670)" src="https://github.com/user-attachments/assets/362fedec-676d-4198-af00-c3514657dcc2" />
 
 
 
@@ -203,14 +134,6 @@ C:\> sfc /scannow
 
 
 
-
-
-
-
-
-
-
-<img width="1920" height="1080" alt="Screenshot (671)" src="https://github.com/user-attachments/assets/4fc20fa9-3304-4749-b878-cec43071b2c8" />
 
 
 
