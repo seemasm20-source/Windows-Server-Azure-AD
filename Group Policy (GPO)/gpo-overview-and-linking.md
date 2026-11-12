@@ -96,7 +96,7 @@ A **Group Policy Object (GPO)** is a set of settings stored on the Domain Contro
 
 ## 💡 Next Step
 
-→ [Disable USB Storage](./disable-usb-storage.md)
+→ https://github.com/seemasm20-source/Windows-Server-Azure-AD/tree/main/Remote%20Support%20Tools
 
 
 
