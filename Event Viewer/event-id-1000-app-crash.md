@@ -96,4 +96,4 @@ Work from the simplest fix to the hardest:
 
 ## 💡 Next Step
 
-→ [Event ID 41 - Unexpected Shutdown](./event-id-41.md)
+→ [Event ID 41 – Unexpected Shutdown](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Event%20Viewer/event-id-41-unexpected-shutdown.md)
