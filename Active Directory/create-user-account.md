@@ -93,4 +93,4 @@ Click **Next**.
 
 ## 💡 Next Step
 
-→ [Reset a User Password](./reset-user-password.md)
+→ [Reset Active Directory User Password](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Active%20Directory/reset-password.md)
