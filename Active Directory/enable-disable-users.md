@@ -92,4 +92,4 @@ The user icon returns to normal, and the user can sign in again.
 
 ## 💡 Next Step
 
-→ Find a User Account in Active Directory](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Active%20Directory/find-user-in-ad.md
+→ [Find a User Account in Active Directory](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Active%20Directory/find-user-in-ad.md)
