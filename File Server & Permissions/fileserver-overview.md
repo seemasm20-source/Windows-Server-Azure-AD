@@ -100,4 +100,4 @@ C:\Companyshare          ← shared as \\server2021\Companyshare
 
 ## 💡 Next Step
 
-→ [Group Policy](./group-policy.md)
+→ [Group Policy (GPO) – GitHub Projects](https://github.com/seemasm20-source/Windows-Server-Azure-AD/tree/main/Group%20Policy%20(GPO))
