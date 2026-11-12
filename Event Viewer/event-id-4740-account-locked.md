@@ -112,9 +112,8 @@ The caller computer name shows which machine the wrong passwords came from, here
 
 ---
 
-## 💡 Next Step
 
-→ [Remote Event Viewer](./remote-event-viewer.md)
+
 
 
 
