@@ -155,4 +155,4 @@ Expand `seemaenterprise.co.in` in ADUC and check that all OUs are listed.
 
 ## 💡 Next Step
 
-→ [File Server][File Server & Permissions – GitHub Projects](https://github.com/seemasm20-source/Windows-Server-Azure-AD/tree/main/File%20Server%20%26%20Permissions)
+→ [File Server & Permissions – GitHub Projects](https://github.com/seemasm20-source/Windows-Server-Azure-AD/tree/main/File%20Server%20%26%20Permissions)
