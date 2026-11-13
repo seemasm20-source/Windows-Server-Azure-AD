@@ -52,7 +52,7 @@ Each lab follows the same flow: summary, steps, verification and screenshots.
 
 | Lab | What it covers | File |
 |-----|----------------|------|
-| **Create Windows Server VM** | Deploy a Windows Server 2025 VM on Azure | [Azure Windows Server](https://github.com/seemasm20-source/Windows-Server-Azure-AD/tree/main/Windows%20Server%20Azure) |
+| **Create Windows Server VM** | Deploy a Windows Server 2025 VM on Azure | [Create Windows Server VM](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Windows%20Server%20Azure/Create%20Server%20VM.md) |
 | **Server Manager Overview** | The main console for managing the server | [Server Manager Overview](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Windows%20Server%20Azure/Server-manager-overview.md) |
 | **Promote to Domain Controller** | Install AD DS and create the forest `seemaenterprise.co.in` |[Promote to Domain Controller](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Windows%20Server%20Azure/promote-to-domaincontroller.md) |
 | **Create Windows 11 Client VM** | Deploy a Windows 11 Pro VM on Azure as the client machine | [Create Client VM](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Windows%20Server%20Azure/create-clientvm-machine.md) |
