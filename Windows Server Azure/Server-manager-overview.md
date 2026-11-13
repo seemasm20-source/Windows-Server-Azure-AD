@@ -59,4 +59,4 @@ Check the following in Server Manager:
 
 ## 💡 Next Step
 
-→ [Install Active Directory Domain Services](./install-adds.md)
+→ [Promote to Domain Controller](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Windows%20Server%20Azure/promote-to-domaincontroller.md)
