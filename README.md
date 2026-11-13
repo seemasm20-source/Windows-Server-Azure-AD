@@ -68,7 +68,7 @@ Each lab follows the same flow: summary, steps, verification and screenshots.
 | **Create a New User Account** | Create a user in an OU and test the sign-in | [Create User Account](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Active%20Directory/create-user-account.md) |
 | **Reset a User Password** | Temporary password and forced change at sign-in | [Reset Active Directory User Password](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Active%20Directory/reset-password.md) |
 | **Unlock a User Account** | Unlock a locked-out account | [Unlock an Active Directory User Account](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Active%20Directory/unlock-account.md) |
-| **Enable and Disable User Accounts** | Block and restore sign-in | [Enable and Disable User Accounts](./enable-disable-user-accounts.md) |
+| **Enable and Disable User Accounts** | Block and restore sign-in | [Enable and Disable Active Directory User Accounts](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Active%20Directory/enable-disable-users.md)) |
 | **Find and Search Users** | Search the domain with Find | [Find and Search Users in AD](./find-search-users.md) |
 | **Move User Between OUs** | Change which policies apply to a user | [Move User Between OUs](./move-user-between-ous.md) |
 | **Create Security Groups** | Create a group and add members | [Create Security Groups](./create-security-groups.md) |
