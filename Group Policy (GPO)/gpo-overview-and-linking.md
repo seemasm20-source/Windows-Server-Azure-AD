@@ -1,7 +1,7 @@
 
 # 🖥️ Group Policy Overview and OU Linking
 
-[ Back to README] → [Windows Server Azure Active Directory – GitHub Repository README](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/README.md)
+[ Back to README] → [[README.md](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/README.md)
 
 ---
 
