@@ -132,7 +132,7 @@ The next person who opens the file sees the saved changes, because the file is u
 
 ## 💡 Next Step
 
-→ [Group Policy](./group-policy.md)
+→ [Map Network Drives](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/File%20Server%20%26%20Permissions/map-network-drives.md)
 
 
 
