@@ -123,7 +123,7 @@ Each lab follows the same flow: summary, steps, verification and screenshots.
 | **Remote Support Tools Overview** | Choosing the right remote tool | [Remote Support Tools Overview](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Remote%20Support%20Tools/remote-support-tools-overview.md) |
 | **Remote Desktop Protocol (RDP)** | Connect with `mstsc` and troubleshoot RDP | [Remote Desktop Protocol (RDP)](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Remote%20Support%20Tools/remote-desktop-protocol.md) |
 | **Remote Computer Management** | Manage another computer from `compmgmt.msc` | [Remote Computer Management](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Remote%20Support%20Tools/remote-computer-mgt.md) |
-| **Remote Event Viewer** | Read the logs of another computer | [Remote Event Viewer](https://github.com/seemasm20-source/Windows-Server-Azure-AD/tree/main/Remote%20Support%20Tools) |
+| **Remote Event Viewer** | Read the logs of another computer | [Remote Event Viewer – Windows Server Troubleshooting](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Remote%20Support%20Tools/remote-event-viewer.md) |
 | **UNC Path Access** | Open a share with `\\server2021\Companyshare` | [UNC Path Access – Windows Network Sharing](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Remote%20Support%20Tools/unc-path-access.md) |
 ---
 
