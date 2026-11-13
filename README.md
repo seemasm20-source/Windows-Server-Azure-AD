@@ -97,24 +97,8 @@ Each lab follows the same flow: summary, steps, verification and screenshots.
 | **Password and Lockout Policy** | Computer (Account Policies) | Password rules and account lockout | [Password and Account Lockout Policy Using Group Policy (GPO)](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Group%20Policy%20(GPO)/password-lockout-policy.md) |
 | **Restrict Control Panel Access** | User | Block or hide Control Panel items | [Restrict Control Panel Access Using Group Policy (GPO)](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Group%20Policy%20(GPO)/restrict-control-panel.md) |
 | **Troubleshoot GPO Not Applying** | Not applicable | Checklist, `gpupdate` and `gpresult` | [Troubleshooting Group Policy (GPO) Not Applying](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Group%20Policy%20(GPO)/troubleshooting-gpo-not-applying.md) |
+
 ---
-
-## 🔌 Section 5 - Remote Support Tools
-
-| Lab | What it covers | File |
-|-----|----------------|------|
-| **Remote Support Tools Overview** | Choosing the right remote tool | [Remote Support Tools Overview](https://github.com/seemasm20-source/Windows-Server-Azure-AD/tree/main/Remote%20Support%20Tools) |
-| **Remote Desktop Protocol (RDP)** | Connect with `mstsc` and troubleshoot RDP | [Remote Desktop Protocol](https://github.com/seemasm20-source/Windows-Server-Azure-AD/tree/main/Remote%20Support%20Tools) |
-| **Remote Computer Management** | Manage another computer from `compmgmt.msc` | [Remote Computer Management](https://github.com/seemasm20-source/Windows-Server-Azure-AD/tree/main/Remote%20Support%20Tools) |
-| **Remote Event Viewer** | Read the logs of another computer | [Remote Event Viewer](https://github.com/seemasm20-source/Windows-Server-Azure-AD/tree/main/Remote%20Support%20Tools) |
-| **UNC Path Access** | Open a share with `\\server2021\Companyshare` | [UNC Path Access](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Remote%20Support%20Tools/unc-path-access.md) |
-
-
-
-
-
-
-
 
 ## 🔌 Section 5 - Remote Support Tools
 
@@ -139,6 +123,20 @@ Each lab follows the same flow: summary, steps, verification and screenshots.
 | **1000** | An application crash (illustrative example) | Application | [Event ID 1000](./event-id-1000.md) |
 
 ---
+
+## 📊 Section 6 - Event Viewer
+
+| Event ID | What it shows | Log | File |
+|----------|---------------|-----|------|
+| **Overview** | Logs, event fields and the labs below |Event Viewer Overview|
+| **4740** | A user account was locked out | Security |Event ID 4740 – Account Locked Out|
+| **4720** | A user account was created | Security | Event ID 4720 – User Account Created |
+| **4625 and 4624** | A failed and a successful logon | Security | Event IDs 4624 & 4625 – Successful and Failed Logon |
+| **41** | An unexpected shutdown (Kernel-Power) | System | Event ID 41 – Unexpected Shutdown |
+| **1000** | An application crash (illustrative example) | Application | Event ID 1000 – Application Crash |
+
+
+
 
 ## 📚 Skills Demonstrated
 
