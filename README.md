@@ -66,7 +66,7 @@ Each lab follows the same flow: summary, steps, verification and screenshots.
 |-----|----------------|------|
 | **ADUC and OU Structure** | Active Directory Users and Computers, and the department OUs | [ADUC Overview and Organizational Unit Structure](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Active%20Directory/aduc-overview-and-organisation-unit-structure.md) |
 | **Create a New User Account** | Create a user in an OU and test the sign-in | [Create User Account](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Active%20Directory/create-user-account.md) |
-| **Reset a User Password** | Temporary password and forced change at sign-in | [Reset a User Password](./reset-user-password.md) |
+| **Reset a User Password** | Temporary password and forced change at sign-in | [Reset Active Directory User Password](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Active%20Directory/reset-password.md) |
 | **Unlock a User Account** | Unlock a locked-out account | [Unlock a User Account](./unlock-user-account.md) |
 | **Enable and Disable User Accounts** | Block and restore sign-in | [Enable and Disable User Accounts](./enable-disable-user-accounts.md) |
 | **Find and Search Users** | Search the domain with Find | [Find and Search Users in AD](./find-search-users.md) |
