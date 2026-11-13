@@ -79,7 +79,7 @@ Each lab follows the same flow: summary, steps, verification and screenshots.
 
 | Lab | What it covers | File |
 |-----|----------------|------|
-| **File Server** | Overview of shares, NTFS permissions and mapped drives | [File Server](https://github.com/seemasm20-source/Windows-Server-Azure-AD/tree/main/File%20Server%20%26%20Permissions) |
+| **File Server** | Overview of shares, NTFS permissions and mapped drives | [File Server Overview](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/File%20Server%20%26%20Permissions/fileserver-overview.md) |
 | **Create Shared Folders** | Share a folder, set share and NTFS permissions | [Create Shared Folders](https://github.com/seemasm20-source/Windows-Server-Azure-AD/tree/main/File%20Server%20%26%20Permissions) |
 | **NTFS Permissions** | Test Read & Execute and Modify from the client | [NTFS Permissions](https://github.com/seemasm20-source/Windows-Server-Azure-AD/tree/main/File%20Server%20%26%20Permissions) |
 | **Map Network Drives Manually** | Map a share to a drive letter in File Explorer | [Map Network Drives Manually](https://github.com/seemasm20-source/Windows-Server-Azure-AD/tree/main/File%20Server%20%26%20Permissions) |
