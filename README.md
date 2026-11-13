@@ -122,7 +122,7 @@ Each lab follows the same flow: summary, steps, verification and screenshots.
 |-----|----------------|------|
 | **Remote Support Tools Overview** | Choosing the right remote tool | Remote Support Tools Overview |
 | **Remote Desktop Protocol (RDP)** | Connect with `mstsc` and troubleshoot RDP | Remote Desktop Protocol (RDP) |
-| **Remote Computer Management** | Manage another computer from `compmgmt.msc` | Remote Computer Management |
+| **Remote Computer Management** | Manage another computer from `compmgmt.msc` | [Remote Computer Management](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Remote%20Support%20Tools/remote-computer-mgt.md) |
 | **Remote Event Viewer** | Read the logs of another computer | [Remote Event Viewer](https://github.com/seemasm20-source/Windows-Server-Azure-AD/tree/main/Remote%20Support%20Tools) |
 | **UNC Path Access** | Open a share with `\\server2021\Companyshare` | [UNC Path Access – Windows Network Sharing](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Remote%20Support%20Tools/unc-path-access.md) |
 ---
