@@ -109,7 +109,7 @@ Each lab follows the same flow: summary, steps, verification and screenshots.
 | **Disable USB Storage** | Computer | Block USB storage devices | [Disable USB Storage – Group Policy](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Group%20Policy%20(GPO)/disable-usb-storage.md) | 
 | **Drive Mapping with Group Policy** | User | Map `Companyshare` at sign-in | [Drive Mapping Using Group Policy (GPO)](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Group%20Policy%20(GPO)/drive-mapping-via-gpo.md) |
 | **Password and Lockout Policy** | Computer (Account Policies) | Password rules and account lockout | [Password and Account Lockout Policy Using Group Policy (GPO)](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Group%20Policy%20(GPO)/password-lockout-policy.md) |
-| **Restrict Control Panel Access** | User | Block or hide Control Panel items | Restrict Control Panel Access Using Group Policy (GPO)](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Group%20Policy%20(GPO)/restrict-control-panel.md |
+| **Restrict Control Panel Access** | User | Block or hide Control Panel items | [Restrict Control Panel Access Using Group Policy (GPO)](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Group%20Policy%20(GPO)/restrict-control-panel.md) |
 | **Troubleshoot GPO Not Applying** | Not applicable | Checklist, `gpupdate` and `gpresult` | [Troubleshooting Group Policy (GPO) Not Applying](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Group%20Policy%20(GPO)/troubleshooting-gpo-not-applying.md) |
 ---
 
