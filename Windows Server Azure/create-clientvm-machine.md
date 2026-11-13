@@ -216,4 +216,4 @@ After deployment completes verify the following:
 
 ## 💡 Next Step
 
-→ [RDP into Server](./rdp-into-server.md)
+→ [Join Client to Domain](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Windows%20Server%20Azure/join-client-to-domain.md)
