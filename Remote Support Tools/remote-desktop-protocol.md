@@ -114,7 +114,7 @@ The remote Windows desktop opens in a window, with a connection bar at the top.
 
 ## 💡 Next Step
 
-→ [Remote Event Viewer – Windows Server Troubleshooting](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Remote%20Support%20Tools/remote-event-viewer.md)
+→ [Remote Computer Management](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Remote%20Support%20Tools/remote-computer-mgt.md)
 
 
 
