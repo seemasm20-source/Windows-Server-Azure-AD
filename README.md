@@ -128,12 +128,12 @@ Each lab follows the same flow: summary, steps, verification and screenshots.
 
 | Event ID | What it shows | Log | File |
 |----------|---------------|-----|------|
-| **Overview** | Logs, event fields and the labs below |Event Viewer Overview|
-| **4740** | A user account was locked out | Security |Event ID 4740 – Account Locked Out|
-| **4720** | A user account was created | Security | Event ID 4720 – User Account Created |
-| **4625 and 4624** | A failed and a successful logon | Security | Event IDs 4624 & 4625 – Successful and Failed Logon |
-| **41** | An unexpected shutdown (Kernel-Power) | System | Event ID 41 – Unexpected Shutdown |
-| **1000** | An application crash (illustrative example) | Application | Event ID 1000 – Application Crash |
+| **Overview** | Logs, event fields and the labs below |[Event Viewer Overview](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Event%20Viewer/eventviewer-overview.md)|
+| **4740** | A user account was locked out | Security |[Event ID 4740 – Account Locked Out](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Event%20Viewer/event-id-4740-account-locked.md)|
+| **4720** | A user account was created | Security | [Event ID 4720 – User Account Created](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Event%20Viewer/event-id-4720-user-created.md) |
+| **4625 and 4624** | A failed and a successful logon | Security | [Event IDs 4624 & 4625 – Successful and Failed Logon](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Event%20Viewer/event-id-4624-4625-successful-logon-failed-logon.md) |
+| **41** | An unexpected shutdown (Kernel-Power) | System |[Event ID 41 – Unexpected Shutdown](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Event%20Viewer/event-id-41-unexpected-shutdown.md)|
+| **1000** | An application crash (illustrative example) | Application | [Event ID 1000 – Application Crash](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Event%20Viewer/event-id-1000-app-crash.md)|
 
 
 
