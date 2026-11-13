@@ -107,7 +107,7 @@ On the same lock screen, enter Sam's **correct password**. The screen unlocks an
 
 ## 💡 Next Step
 
-→ [Event ID 4720 – User Account Created](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Event%20Viewer/event-id-4720-user-created.md)
+→ [Event ID 41 – Unexpected Shutdown](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Event%20Viewer/event-id-41-unexpected-shutdown.md)
 
 
 
