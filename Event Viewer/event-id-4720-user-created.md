@@ -113,7 +113,7 @@ When an account is created, other events can follow. They show what else was don
 
 ## 💡 Next Step
 
-→ [Event ID 4740 – Account Locked Out](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Event%20Viewer/event-id-4740-account-locked.md)
+→ [Event IDs 4624 & 4625 – Successful and Failed Logon](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Event%20Viewer/event-id-4624-4625-successful-logon-failed-logon.md)
 
 
 
