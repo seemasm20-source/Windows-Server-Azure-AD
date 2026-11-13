@@ -70,7 +70,7 @@ Each lab follows the same flow: summary, steps, verification and screenshots.
 | **Unlock a User Account** | Unlock a locked-out account | [Unlock an Active Directory User Account](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Active%20Directory/unlock-account.md) |
 | **Enable and Disable User Accounts** | Block and restore sign-in | [Enable and Disable Active Directory User Accounts](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Active%20Directory/enable-disable-users.md)) |
 | **Find and Search Users** | Search the domain with Find | [Find a User Account in Active Directory](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Active%20Directory/find-user-in-ad.md) |
-| **Move User Between OUs** | Change which policies apply to a user | [Move User Between OUs](./move-user-between-ous.md) |
+| **Move User Between OUs** | Change which policies apply to a user | [Move Active Directory Users Between OUs](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Active%20Directory/move-users-between-ou.md) |
 | **Create Security Groups** | Create a group and add members | [Create Security Groups](./create-security-groups.md) |
 
 ---
