@@ -115,7 +115,7 @@ The caller computer name shows which machine the wrong passwords came from, here
 
 ## 💡 Next Step
 
-→ [Event ID 4740 – Account Locked Out](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Event%20Viewer/event-id-4740-account-locked.md)
+→ [Event ID 4720 – User Account Created](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Event%20Viewer/event-id-4720-user-created.md)
 
 
 
