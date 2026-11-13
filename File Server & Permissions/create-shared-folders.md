@@ -107,7 +107,7 @@ Access to a shared folder is controlled in two places. When a user connects over
 
 ## 💡 Next Step
 
-→ [Group Policy](./group-policy.md)
+→ [NTFS Permissions](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/File%20Server%20%26%20Permissions/ntfs-permissions.md)
 
 
 
