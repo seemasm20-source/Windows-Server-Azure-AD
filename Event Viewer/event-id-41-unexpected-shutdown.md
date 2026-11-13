@@ -87,7 +87,7 @@ C:\> sfc /scannow
 
 ## 💡 Next Step
 
-→ [Event IDs 4624 & 4625 – Successful and Failed Logon](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Event%20Viewer/event-id-4624-4625-successful-logon-failed-logon.md)
+→ [Event ID 1000 – Application Crash](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Event%20Viewer/event-id-1000-app-crash.md)
 
 
 
