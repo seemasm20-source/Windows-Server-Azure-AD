@@ -109,20 +109,10 @@ Each lab follows the same flow: summary, steps, verification and screenshots.
 | **Remote Computer Management** | Manage another computer from `compmgmt.msc` | [Remote Computer Management](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Remote%20Support%20Tools/remote-computer-mgt.md) |
 | **Remote Event Viewer** | Read the logs of another computer | [Remote Event Viewer – Windows Server Troubleshooting](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Remote%20Support%20Tools/remote-event-viewer.md) |
 | **UNC Path Access** | Open a share with `\\server2021\Companyshare` | [UNC Path Access – Windows Network Sharing](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Remote%20Support%20Tools/unc-path-access.md) |
----
-
-## 📊 Section 6 - Event Viewer
-
-| Event ID | What it shows | Log | File |
-|----------|---------------|-----|------|
-| **Overview** | Logs, event fields and the labs below | | [Event Viewer Overview](./event-viewer-overview.md) |
-| **4740** | A user account was locked out | Security | [Event ID 4740](./event-id-4740.md) |
-| **4720** | A user account was created | Security | [Event ID 4720](./event-id-4720.md) |
-| **4625 and 4624** | A failed and a successful logon | Security | [Event ID 4625 and 4624](./event-id-4625-4624.md) |
-| **41** | An unexpected shutdown (Kernel-Power) | System | [Event ID 41](./event-id-41.md) |
-| **1000** | An application crash (illustrative example) | Application | [Event ID 1000](./event-id-1000.md) |
 
 ---
+
+
 
 ## 📊 Section 6 - Event Viewer
 
@@ -136,6 +126,7 @@ Each lab follows the same flow: summary, steps, verification and screenshots.
 | **1000** | An application crash (illustrative example) | Application | [Event ID 1000 – Application Crash](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Event%20Viewer/event-id-1000-app-crash.md)|
 
 
+---
 
 
 ## 📚 Skills Demonstrated
@@ -191,15 +182,7 @@ Each lab follows the same flow: summary, steps, verification and screenshots.
 
 ---
 
-## 🔗 Related Portfolios
 
-| Portfolio | Link |
-|-----------|------|
-| **DNS Troubleshooting Portfolio** | [DNS Portfolio](https://github.com/seemasm20-source/networking-labs/tree/main/03-dns-portfolio) |
-| **DHCP Configuration Portfolio** | [DHCP Portfolio](https://github.com/seemasm20-source/networking-labs/tree/main/02-dhcp-configuration) |
-| **TCP/IP Network Troubleshooting Portfolio** | [TCP/IP Portfolio](https://github.com/seemasm20-source/networking-labs/tree/main/04-tcp-ip-network-troubleshooting) |
-
----
 
 ## 🎓 Learning Outcome
 
@@ -211,6 +194,4 @@ This portfolio provided hands-on experience with a small Active Directory enviro
 
 A Windows Server 2025 VM was deployed on Azure and promoted to a Domain Controller, a Windows 11 client was joined to the domain, and users, groups, OUs, file shares, Group Policy, Event Viewer analysis and remote support tools were configured and tested.
 
-Planned additions: VPN configuration, Windows Remote Assistance and Quick Assist.
 
-> **Note:** This portfolio is actively being built. Labs and screenshots are added as each section is completed.
