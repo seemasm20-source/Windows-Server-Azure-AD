@@ -220,11 +220,7 @@ Ensure the VM status changes to **Stopped (deallocated)**.
 
 ## 💡 Next Step
 
-The Windows Server 2025 virtual machine has been successfully deployed.
-
-The next step is to connect to the server remotely using Remote Desktop Protocol (RDP).
-
-→ [RDP into Server](./rdp-into-server.md)
+ → [Server Manager Overview](https://github.com/seemasm20-source/Windows-Server-Azure-AD/blob/main/Windows%20Server%20Azure/Server-manager-overview.md)
 
 
 
