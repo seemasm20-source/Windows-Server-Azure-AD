@@ -86,20 +86,6 @@ Each lab follows the same flow: summary, steps, verification and screenshots.
 
 ---
 
-## 📜 Section 4 - Group Policy
-
-| Lab | Policy type | What it covers | File |
-|-----|-------------|----------------|------|
-| **Group Policy Overview and OU Linking** | Not applicable | How GPOs work, creating and linking a GPO | [Group Policy Overview](./group-policy-overview.md) |
-| **Disable USB Storage** | Computer | Block USB storage devices | [Disable USB Storage](./disable-usb-storage.md) |
-| **Drive Mapping with Group Policy** | User | Map `Companyshare` at sign-in | [Drive Mapping with Group Policy](./drive-mapping-gpo.md) |
-| **Password and Lockout Policy** | Computer (Account Policies) | Password rules and account lockout | [Password and Lockout Policy](./password-lockout-policy.md) |
-| **Restrict Control Panel Access** | User | Block or hide Control Panel items | [Restrict Control Panel Access](./restrict-control-panel.md) |
-| **Troubleshoot GPO Not Applying** | Not applicable | Checklist, `gpupdate` and `gpresult` | [Troubleshoot GPO Not Applying](./troubleshoot-gpo.md) |
-
-
-
-
 
 ## 📜 Section 4 - Group Policy
 
